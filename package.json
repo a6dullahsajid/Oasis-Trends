@@ -1,0 +1,40 @@
+{
+  "name": "oasis-trends",
+  "version": "1.0.0",
+  "description": "Oasis Trends - Custom Leather Goods Manufacturer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop --host 0.0.0.0",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^5.0.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "gh-pages": "^6.3.0"
+  },
+  "keywords": [
+    "gatsby",
+    "leather",
+    "craft",
+    "manufacturer",
+    "responsive"
+  ],
+  "author": "Premium Leather Craft",
+  "license": "MIT"
+}
