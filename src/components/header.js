@@ -9,29 +9,29 @@ const Header = () => {
       const sections = ['home', 'products', 'services', 'about', 'contact']
       const headerHeight = document.querySelector('.site-header')?.offsetHeight || 80
       const scrollPosition = window.scrollY + headerHeight + 150
-      
+
       let currentActive = 'home'
-      
+
       for (let i = 0; i < sections.length; i++) {
         const section = document.getElementById(sections[i])
         if (section) {
           const sectionTop = section.offsetTop
           const sectionBottom = sectionTop + section.offsetHeight
-          
+
           if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
             currentActive = sections[i]
             break
           }
         }
       }
-      
+
       setActiveSection(currentActive)
     }
 
     window.addEventListener('scroll', handleScroll)
     // Call once on mount to set initial active section
     handleScroll()
-    
+
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
@@ -44,15 +44,21 @@ const Header = () => {
   }
 
   const scrollToSection = (sectionId) => {
+    console.log('Attempting to scroll to:', sectionId)
     const section = document.getElementById(sectionId)
+    console.log('Section found:', section)
+
     if (section) {
       const headerHeight = document.querySelector('.site-header').offsetHeight
       const sectionTop = section.offsetTop - headerHeight - 20
+      console.log('Scrolling to position:', sectionTop)
 
       window.scrollTo({
         top: sectionTop,
         behavior: 'smooth'
       })
+    } else {
+      console.log('Section not found with ID:', sectionId)
     }
     closeMobileMenu()
   }
@@ -67,10 +73,10 @@ const Header = () => {
       <nav className="site-navigation">
         <div className="site-navigation__container">
           <div className="site-navigation__brand">
-            <img src="/assets/logo_only.png" alt="Oasis Trends Logo" className="site-navigation__brand-logo" />
+            <img src="./assets/logo_only.png" alt="Oasis Trends Logo" className="site-navigation__brand-logo" />
             <div className="site-navigation__brand-text">
               <h1 className="site-navigation__brand-title">OASIS TRENDS</h1>
-              <p className="site-navigation__brand-tagline">MANUFACTURER OF LEATHER GOODS</p>
+              <p className="site-navigation__brand-tagline">MANUFACTURER OF FINISHED LEATHER AND LEATHER GOODS</p>
             </div>
           </div>
 

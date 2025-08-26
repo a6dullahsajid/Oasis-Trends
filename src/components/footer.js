@@ -65,13 +65,16 @@ const Footer = () => {
             <h4 className="site-footer__section-subtitle">Contact Info</h4>
             <div className="site-footer__section-contact">
               <p className="site-footer__section-contact-item">
-                123 Leather District, Craft City, State 12345
+                585/4 C, BLOCK, NAI CHUNGI JAJMAU, KANPUR, UTTAR PRADESH, INDIA
               </p>
               <p className="site-footer__section-contact-item">
-                Phone: +1 (555) 123-4567
+                Phone: +91-6394938670
               </p>
               <p className="site-footer__section-contact-item">
-                Email: info@premiumleathercraft.com
+                Email: info@oasistrends.com
+              </p>
+              <p className="site-footer__section-contact-item">
+                GSTIN: 09AADFO8714C1ZC
               </p>
             </div>
           </div>

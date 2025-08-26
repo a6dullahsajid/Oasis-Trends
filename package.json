@@ -16,6 +16,7 @@
     "gatsby": "^5.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-manifest": "^5.14.0",
     "gatsby-plugin-sharp": "^5.0.0",
     "gatsby-source-filesystem": "^5.0.0",
     "gatsby-transformer-sharp": "^5.0.0",
@@ -35,6 +36,6 @@
     "manufacturer",
     "responsive"
   ],
-  "author": "Premium Leather Craft",
-  "license": "MIT"
+  "author": "Oasis Trends",
+  "license": "MIT"    
 }

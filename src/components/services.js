@@ -6,37 +6,37 @@ const Services = () => {
       id: 1,
       title: "Custom Leather Manufacturing",
       description: "We specialize in creating premium handmade leather products with exceptional craftsmanship tailored to your specifications.",
-      icon: "/assets/icons/factory.png"
+      icon: "./assets/icons/factory.png"
     },
     {
       id: 2,
       title: "Private Labeling Services",
       description: "Build your brand with our private labeling service. We manufacture high-quality leather goods with your branding and specifications.",
-      icon: "/assets/icons/label.png"
+      icon: "./assets/icons/label.png"
     },
     {
       id: 3,
       title: "Bulk Manufacturing",
       description: "Large-scale production capabilities with 5000+ units monthly production capacity for businesses worldwide.",
-      icon: "/assets/icons/bulk.png"
+      icon: "./assets/icons/bulk.png"
     },
     {
       id: 4,
       title: "Custom Design & Development",
       description: "Our expert team works with you to design and develop unique leather products that match your vision and requirements.",
-      icon: "/assets/icons/customization.png"
+      icon: "./assets/icons/customization.png"
     },
     {
       id: 5,
       title: "Quality Assurance",
       description: "We ensure 100% quality in every product with rigorous testing and quality control processes throughout manufacturing.",
-      icon: "/assets/icons/verified.png"
+      icon: "./assets/icons/verified.png"
     },
     {
       id: 6,
       title: "Global Export Services",
       description: "We export to 25+ countries worldwide with reliable shipping and logistics support for international clients.",
-      icon: "/assets/icons/global.png"
+      icon: "./assets/icons/global.png"
     }
   ]
 

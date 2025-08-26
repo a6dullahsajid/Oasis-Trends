@@ -18,13 +18,16 @@ const IndexPage = () => {
 
   // Filter products by category
   const filterByCategory = (categoryId) => {
+    console.log('Filtering by category:', categoryId)
     setCurrentFilter(categoryId)
     setSearchQuery('')
     
     if (categoryId === 'all') {
+      console.log('Setting all products:', appData.products.length)
       setCurrentProducts([...appData.products])
     } else {
       const filtered = appData.products.filter(product => product.category === categoryId)
+      console.log('Filtered products:', filtered.length)
       setCurrentProducts(filtered)
     }
   }
@@ -45,9 +48,7 @@ const IndexPage = () => {
     
     const searchResults = appData.products.filter(product =>
       product.name.toLowerCase().includes(query.toLowerCase()) ||
-      product.description.toLowerCase().includes(query.toLowerCase()) ||
-      product.material.toLowerCase().includes(query.toLowerCase()) ||
-      product.features.some(feature => feature.toLowerCase().includes(query.toLowerCase()))
+      product.productStyle.toLowerCase().includes(query.toLowerCase())
     )
     setCurrentProducts(searchResults)
   }

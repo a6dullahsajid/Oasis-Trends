@@ -20,7 +20,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     // Redirect to phone number - you can manually add the number here
-    const phoneNumber = '+91-XXXXXXXXXX' // Replace with your actual number
+    const phoneNumber = '+91-6394938670' // Replace with your actual number
     window.location.href = `tel:${phoneNumber}`
   }
 
@@ -36,7 +36,7 @@ const Contact = () => {
             <div className="contact-section__details">
               <div className="contact-section__detail-item">
                 <div className="contact-section__detail-icon">
-                  <img src="/assets/icons/address.png" alt="Address" />
+                  <img src="./assets/icons/address.png" alt="Address" />
                 </div>
                 <div>
                   <h4>Address</h4>
@@ -48,27 +48,29 @@ const Contact = () => {
               
               <div className="contact-section__detail-item">
                 <div className="contact-section__detail-icon">
-                  <img src="/assets/icons/phone.png" alt="Phone" />
+                  <img src="./assets/icons/phone.png" alt="Contact Person" />
                 </div>
                 <div>
-                  <h4>Phone</h4>
-                  <p>+91-XXXXXXXXXX</p>
+                  <h4>Contact Person</h4>
+                  <p><strong>Mohammad Nabeel</strong><br />
+                  Managing Partner<br />
+                  <strong>Contact:</strong> +91 6394938670</p>
                 </div>
               </div>
               
               <div className="contact-section__detail-item">
                 <div className="contact-section__detail-icon">
-                  <img src="/assets/icons/mail.png" alt="Email" />
+                  <img src="./assets/icons/mail.png" alt="Email" />
                 </div>
                 <div>
                   <h4>Email</h4>
-                  <p>info@yourcompany.com</p>
+                  <p>info@oasistrends.com</p>
                 </div>
               </div>
               
               <div className="contact-section__detail-item">
                 <div className="contact-section__detail-icon">
-                  <img src="/assets/icons/clock.png" alt="Business Hours" />
+                  <img src="./assets/icons/clock.png" alt="Business Hours" />
                 </div>
                 <div>
                   <h4>Business Hours</h4>

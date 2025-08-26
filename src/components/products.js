@@ -86,8 +86,7 @@ Products.propTypes = {
       name: PropTypes.string.isRequired,
       category: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      productCode: PropTypes.string.isRequired,
+      productStyle: PropTypes.string.isRequired,
     })
   ).isRequired,
   currentFilter: PropTypes.string.isRequired,

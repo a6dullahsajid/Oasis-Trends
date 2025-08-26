@@ -29,6 +29,24 @@ const SEO = ({ description, lang, meta, title }) => {
       }}
       title={title || defaultTitle}
       titleTemplate={title ? `%s | ${defaultTitle}` : null}
+      link={[
+        {
+          rel: `icon`,
+          type: `image/x-icon`,
+          href: `./assets/favicon.ico`,
+        },
+        {
+          rel: `icon`,
+          type: `image/png`,
+          sizes: `144x144`,
+          href: `./assets/logo_only.png`,
+        },
+        {
+          rel: `apple-touch-icon`,
+          sizes: `180x180`,
+          href: `./assets/logo_only.png`,
+        },
+      ]}
       meta={[
         {
           name: `description`,

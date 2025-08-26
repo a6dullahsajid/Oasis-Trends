@@ -10,7 +10,7 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: '/assets/industry_image1.jpg',
+      image: './assets/industry_image1.jpg',
       title: 'Our Factory, Your Brand',
       subtitle: 'Custom Leather Goods Manufacturer',
       description: 'We specialize in creating premium handmade leather products with exceptional craftsmanship. Our products are designed to last and reflect your unique style.',
@@ -18,7 +18,7 @@ const Hero = () => {
     },
     {
       id: 2,
-      image: '/assets/industry_image2.jpg',
+      image: './assets/industry_image2.jpg',
       title: 'Bespoke Leather Goods',
       subtitle: 'Tailored to Perfection',
       description: 'Stand out from the crowd with our premium leather goods. Contact us today to discuss your private labeling needs and custom requirements.',
@@ -26,7 +26,7 @@ const Hero = () => {
     },
     {
       id: 3,
-      image: '/assets/industry_image3.jpg',
+      image: './assets/industry_image3.jpg',
       title: 'Luxury Redefined',
       subtitle: 'Customized for You',
       description: 'Looking to add a touch of luxury to your brand? Our private labeling service offers custom-made leather goods perfect for your business.',
@@ -190,21 +190,21 @@ const Hero = () => {
           <div className="hero-section__company-intro">
             <h2 className="hero-section__company-title">Oasis Trends</h2>
             <p className="hero-section__company-description">
-              Leading custom leather goods manufacturer with 12+ years of experience. We produce 
+              Leading custom leather goods manufacturer with 8+ years of experience. We produce 
               high-quality leather products including bags, wallets, belts, and accessories. 
               Specializing in private labeling and custom manufacturing for businesses worldwide.
             </p>
             <div className="hero-section__features">
               <div className="hero-section__feature">
-                <img src="/assets/icons/factory.png" alt="Factory" className="hero-section__feature-icon" />
-                <span>5000+ Units Monthly Production</span>
+                <img src="./assets/icons/factory.png" alt="Factory" className="hero-section__feature-icon" />
+                <span>2000+ Units Monthly Production</span>
               </div>
               <div className="hero-section__feature">
-                <img src="/assets/icons/global.png" alt="Global" className="hero-section__feature-icon" />
-                <span>Exporting to 25+ Countries</span>
+                <img src="./assets/icons/global.png" alt="Global" className="hero-section__feature-icon" />
+                <span>Exporting to 15+ Countries</span>
               </div>
               <div className="hero-section__feature">
-                <img src="/assets/icons/verified.png" alt="Verified" className="hero-section__feature-icon" />
+                <img src="./assets/icons/verified.png" alt="Verified" className="hero-section__feature-icon" />
                 <span>100% Real Leather Products</span>
               </div>
             </div>
@@ -214,7 +214,7 @@ const Hero = () => {
             <div className="hero-section__stat-item">
               <span 
                 className="hero-section__stat-number" 
-                data-target="12"
+                data-target="8"
                 ref={el => statsRefs.current[0] = el}
               >
                 0
@@ -225,7 +225,7 @@ const Hero = () => {
             <div className="hero-section__stat-item">
               <span 
                 className="hero-section__stat-number" 
-                data-target="5000"
+                data-target="2000"
                 ref={el => statsRefs.current[1] = el}
               >
                 0
@@ -236,7 +236,7 @@ const Hero = () => {
             <div className="hero-section__stat-item">
               <span 
                 className="hero-section__stat-number" 
-                data-target="25"
+                data-target="15"
                 ref={el => statsRefs.current[2] = el}
               >
                 0
@@ -260,14 +260,16 @@ const Hero = () => {
         {/* Floating WhatsApp Button */}
         <div className="hero-section__whatsapp-float">
           <a 
-            href="https://wa.me/916393170895?text=Hi! I'm interested in your leather products. Can you please provide more information?"
+            href="https://wa.me/916394938670?text=Hi Nabeel! I'm interested in your leather products. Can you please provide more information?"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-section__whatsapp-btn"
             aria-label="Chat on WhatsApp"
           >
-            <img src="/assets/WhatsApp_logo.png" alt="WhatsApp" />
-            Enquire
+            <img src="./assets/WhatsApp_logo.png" alt="WhatsApp" />
+            <div className="hero-section__whatsapp-btn-text">
+              Enquire
+            </div>
           </a>
         </div>
       </div>

@@ -11,8 +11,8 @@ const appData = {
       "realLeather": "100"
     },
     "contact": {
-      "address": "123 Leather District, Craft City, State 12345",
-      "phone": "+1 (555) 123-4567",
+      "address": "585/4 C, BLOCK, NAI CHUNGI JAJMAU, KANPUR, UTTAR PRADESH, INDIA",
+      "phone": "+916394938670",
       "email": "info@premiumleathercraft.com"
     }
   },
