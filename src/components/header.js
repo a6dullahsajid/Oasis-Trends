@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
+import { appData } from '../data/app-data.js'
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
+  const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,7 +34,9 @@ const Header = () => {
     // Call once on mount to set initial active section
     handleScroll()
 
-    return () => window.removeEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   const toggleMobileMenu = () => {
@@ -63,6 +67,28 @@ const Header = () => {
     closeMobileMenu()
   }
 
+  const scrollToCategory = (categoryId) => {
+    // First scroll to products section
+    scrollToSection('products')
+    
+    // Dispatch a custom event to trigger category selection in products section
+    setTimeout(() => {
+      const categorySelectEvent = new CustomEvent('selectCategory', {
+        detail: { categoryId: categoryId }
+      })
+      window.dispatchEvent(categorySelectEvent)
+      console.log('Dispatched category selection event for:', categoryId)
+    }, 1000)
+  }
+
+  const toggleProductsDropdown = () => {
+    setIsProductsDropdownOpen(!isProductsDropdownOpen)
+  }
+
+  const closeProductsDropdown = () => {
+    setIsProductsDropdownOpen(false)
+  }
+
   const getNavItemClass = (sectionId) => {
     const baseClass = 'site-navigation__menu-link'
     return activeSection === sectionId ? `${baseClass} ${baseClass}--active` : baseClass
@@ -73,7 +99,7 @@ const Header = () => {
       <nav className="site-navigation">
         <div className="site-navigation__container">
           <div className="site-navigation__brand">
-            <img src="./assets/logo_only.png" alt="Oasis Trends Logo" className="site-navigation__brand-logo" />
+            <img src="./assets/oasis-trends-logo.png" alt="Oasis Trends Logo" className="site-navigation__brand-logo" />
             <div className="site-navigation__brand-text">
               <h1 className="site-navigation__brand-title">OASIS TRENDS</h1>
               <p className="site-navigation__brand-tagline">MANUFACTURER OF FINISHED LEATHER AND LEATHER GOODS</p>
@@ -89,13 +115,47 @@ const Header = () => {
                 Home
               </button>
             </li>
-            <li className="site-navigation__menu-item">
+            <li 
+              className="site-navigation__menu-item site-navigation__menu-item--has-dropdown"
+              onMouseLeave={() => {
+                if (!isMobileMenuOpen) {
+                  setTimeout(() => {
+                    setIsProductsDropdownOpen(false)
+                  }, 500)
+                }
+              }}
+            >
               <button
                 className={getNavItemClass('products')}
                 onClick={() => scrollToSection('products')}
+                onMouseEnter={() => {
+                  if (!isMobileMenuOpen) {
+                    setIsProductsDropdownOpen(true)
+                  }
+                }}
+                onTouchStart={() => toggleProductsDropdown()}
               >
                 Our Products
+                <span className="site-navigation__dropdown-arrow"> v</span>
               </button>
+              {isProductsDropdownOpen && (
+                <div 
+                  className="site-navigation__dropdown"
+                >
+                  {appData.categories.map((category) => (
+                    <button
+                      key={category.id}
+                      className="site-navigation__dropdown-item"
+                      onClick={() => {
+                        scrollToCategory(category.id)
+                        closeProductsDropdown()
+                      }}
+                    >
+                      <span className="site-navigation__dropdown-item-name">{category.name}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </li>
             <li className="site-navigation__menu-item">
               <button

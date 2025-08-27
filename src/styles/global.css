@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Anton&family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Fjalla+One&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Russo+One&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Global CSS Variables and Base Styles */
 :root {
@@ -475,27 +476,28 @@ a:hover {
   width: 60px;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 0px 1px rgba(206, 199, 4, 0.6));
 }
 
 .site-navigation__brand-title {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
   font-size: 32px;
-  font-weight: 700;
-  color: rgba(32, 63, 96, 1);
+  color: rgba(73, 37, 11, 1);
   margin: 0;
-  letter-spacing: -0.02em;
+  letter-spacing: 1px;
   line-height: 1.2;
 }
 
 .site-navigation__brand-tagline {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: "Bitter", sans-serif;
   font-size: 9px;
   font-weight: 500;
-  color: rgba(32, 63, 96, 0.7);
+  color: rgba(73, 37, 11, 0.75);
   margin: 0;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
@@ -565,6 +567,139 @@ a:hover {
   background: rgba(55, 65, 81, 1);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 2px;
+}
+
+/* Dropdown Menu Styles */
+.site-navigation__menu-item--has-dropdown {
+  position: relative;
+}
+
+.site-navigation__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid rgba(94, 82, 64, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  min-width: 220px;
+  z-index: 1000;
+  padding: 8px 0;
+  margin-top: 8px;
+  opacity: 0;
+  animation: dropdownFadeIn 0.2s ease-out forwards;
+}
+
+.site-navigation__dropdown::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+}
+
+.site-navigation__dropdown::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid rgba(94, 82, 64, 0.2);
+  z-index: -1;
+}
+
+.site-navigation__dropdown-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 12px 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  color: rgba(55, 65, 81, 1);
+}
+
+.site-navigation__dropdown-item:hover {
+  background-color: rgba(94, 82, 64, 0.08);
+  color: #DAA520;
+}
+
+.site-navigation__dropdown-item-name {
+  font-weight: 500;
+}
+
+
+
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Mobile dropdown adjustments */
+@media (max-width: 768px) {
+  .site-navigation__dropdown {
+    position: static;
+    transform: none;
+    margin-top: 0;
+    margin-left: 20px;
+    box-shadow: none;
+    border: none;
+    border-left: 2px solid rgba(94, 82, 64, 0.2);
+    border-radius: 0;
+    min-width: auto;
+    width: calc(100% - 20px);
+  }
+
+  .site-navigation__dropdown::before,
+  .site-navigation__dropdown::after {
+    display: none;
+  }
+
+  .site-navigation__dropdown-item {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  /* All products mobile layout */
+  .products-section__all-products {
+    grid-template-rows: repeat(4, 150px);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .products-section__all-image-container:nth-child(1) {
+    grid-row: span 1;
+  }
+  
+  .products-section__all-image-container:nth-child(2) {
+    grid-column: span 1;
+  }
+  
+  .products-section__all-image-container:nth-child(5) {
+    grid-row: span 1;
+  }
 }
 
 
@@ -1061,6 +1196,15 @@ a:hover {
   display: block;
 }
 
+/* Special styling for finished leather products */
+.products-section__card-image--finished-leather {
+  width: 95%;
+  height: 240px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
 
 .products-section__card-image-container {
   /* White container for ALL products */
@@ -1070,6 +1214,17 @@ a:hover {
   align-items: center;
   justify-content: center;
   min-height: 200px;
+  border-bottom: 1px solid rgba(226, 232, 240, 1);
+}
+
+/* Special container styling for finished leather products */
+.products-section__card-image-container--finished-leather {
+  background: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 240px;
   border-bottom: 1px solid rgba(226, 232, 240, 1);
 }
 
@@ -1138,6 +1293,85 @@ a:hover {
   text-align: center;
   padding: 40px;
   color: rgba(107, 114, 128, 1);
+}
+
+/* Category selection prompt */
+.products-section__all-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 180px);
+  gap: 15px;
+  padding: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Make specific images span multiple rows for collage effect */
+.products-section__all-image-container:nth-child(1) {
+  grid-row: span 3;
+} 
+.products-section__all-image-container:nth-child(2) {
+  grid-column: span 2;
+}
+
+.products-section__all-image-container:nth-child(5) {
+  grid-row: span 2;
+}
+
+.products-section__all-image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.products-section__all-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image container and hover effects */
+.products-section__all-image-container {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.products-section__all-category-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 12px 16px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(8px);
+}
+
+.products-section__all-image-container:hover .products-section__all-category-name {
+  transform: translateY(0);
+}
+
+.products-section__all-image-container:hover img {
+  transform: none;
+}
+
+/* Mobile: Always show category names */
+@media (max-width: 768px) {
+  .products-section__all-category-name {
+    transform: translateY(0);
+    background: rgba(255, 255, 255,0.1);
+    font-size: 7px;
+    font-weight: 400;
+    padding: 0px 6px;
+  }
 }
 
 /* ==========================================
@@ -1659,6 +1893,13 @@ a:hover {
 
 
 @media (max-width:389px) {
+
+  /* All products mobile layout */
+  .products-section__all-products {
+    grid-template-rows: repeat(4, 60px);
+    gap: 8px;
+    padding: 10px;
+  }
 
   /* Sidebar Menu Styles */
   .site-navigation__menu {
@@ -2583,7 +2824,7 @@ a:hover {
   .hero-section__whatsapp-btn-text {
     background: white;
     color: #1a2f4a;
-    padding: 0px 2px;
+    padding: 3px 6px;
     border-radius: 5px;
     font-size: 11px;
     font-weight: 600;
@@ -2623,12 +2864,15 @@ a:hover {
   .contact-section__subtitle {
     font-size: 17px;
     margin-top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 18px;
   }
 
   .contact-section__details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85vw;
     gap: 15px;
     margin-bottom: 25px;
   }
@@ -2637,7 +2881,7 @@ a:hover {
     display: flex;
     align-items: flex-start;
     gap: 3px;
-    width: 270px;
+    width: 230px;
     padding: 5px 0px;
     border-radius: 10px;
   }
@@ -2737,7 +2981,11 @@ a:hover {
 }
 
 @media (min-width:390px) and (max-width: 576px) {
-
+  .products-section__all-products {
+    grid-template-rows: repeat(4, 65px);
+    gap: 8px;
+    padding: 10px;
+  }
   /* Sidebar Menu Styles */
   .site-navigation__menu {
     position: fixed;
@@ -3393,8 +3641,8 @@ a:hover {
 
   .site-footer__content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0px;
     margin-bottom: 24px;
     padding: 0px 16px;
   }
@@ -3406,14 +3654,15 @@ a:hover {
 
   .site-footer__section-title {
     color: rgba(55, 65, 81, 1);
-    margin-bottom: 16px;
-    font-size: 18px;
+    margin-bottom: 12px;
+    font-size: 15px;
     font-weight: 600;
   }
 
   .site-footer__section-subtitle {
-    margin-bottom: 8px;
-    font-size: 10px;
+    color: rgba(55, 65, 81, 1);
+    margin-bottom: 16px;
+    font-size: 12px;
   }
 
   .contact-section__detail-icon img {
@@ -3424,9 +3673,9 @@ a:hover {
 
 
   .site-footer__section-text {
+    color: rgba(55, 65, 81, 1);
     margin: 0;
     line-height: 1.5;
-    font-size: 10px;
   }
 
   .site-footer__section-links {
@@ -3445,6 +3694,10 @@ a:hover {
   .site-footer__section-link {
     background: none;
     border: none;
+    color: rgba(55, 65, 81, 1);
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
     padding: 0;
     font-size: 8px;
     text-align: left;
@@ -3629,7 +3882,6 @@ a:hover {
     position: fixed;
     bottom: 15px;
     right: 15px;
-    font-size: 10px;
     z-index: 1001;
     pointer-events: auto;
   }
@@ -3652,8 +3904,8 @@ a:hover {
   }
 
   .hero-section__whatsapp-btn img {
-    width: 32px;
-    height: 32px;
+    width: 35px;
+    height: 35px;
     object-fit: contain;
     filter: drop-shadow(0 0px 3px rgba(0, 0, 0, 0.8));
     transition: all 0.3s ease;
@@ -3662,11 +3914,11 @@ a:hover {
   .hero-section__whatsapp-btn-text {
     background: white;
     color: #1a2f4a;
-    padding: 0px 2px;
-    border-radius: 4px;
-    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 11px;
     font-weight: 600;
-    margin-top: 2px;
+    margin-top: 3px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
   }
@@ -3707,7 +3959,10 @@ a:hover {
 
   .contact-section__details {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85vw;
     gap: 15px;
     margin-bottom: 25px;
   }
@@ -3716,7 +3971,7 @@ a:hover {
     display: flex;
     align-items: flex-start;
     gap: 3px;
-    width: 270px;
+    width: 230px;
     padding: 5px 0px;
     border-radius: 10px;
   }

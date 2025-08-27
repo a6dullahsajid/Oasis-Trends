@@ -8,14 +8,28 @@ const About = () => {
           <h2 className="about-section__title">About Us</h2>
           <div className="about-section__text">
             <p className="about-section__paragraph">
-              Premium Leather Craft has been creating exceptional handmade leather goods for over 8 years. 
-              We take pride in our commitment to quality, craftsmanship, and customer satisfaction. 
-              Each product is meticulously crafted using the finest materials and traditional techniques 
-              passed down through generations.
+              The company OASIS TRENDS is the
+              manufacturer and exporter of Leather & Non-
+              Leather Accessories and Pet Products. The
+              organization is enriched with the executives
+              holding 8+ years of progressive experience in
+              the industry. The company is specialized in
+              manufacturing durable and efficient, high-
+              quality outcomes at an adequate value as our
+              collection is a synthesis of technology and
+              craftsmanship. Fortunate to have in-house
+              facilities for peripheral segments constituting
+              the product.
             </p>
             <p className="about-section__paragraph">
-              Our extensive range includes camera bags, travel accessories, ladies bags, backpacks, and more - 
-              all designed to meet the highest standards of durability and style.
+              We believe we have a responsibility to
+              conduct our business in an ethical way. We
+              expect the same from our business partners,
+              and focus on working with long-term, strategic
+              suppliers that demonstrate a commitment to
+              engaging with their workers and ensuring safe
+              working condSomethinglike this al
+              responsibility.
             </p>
           </div>
         </div>

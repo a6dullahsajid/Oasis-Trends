@@ -17,6 +17,13 @@ export const appData = {
   },
   "categories": [
     {
+      "id": "finished-leather",
+      "name": "Finished Leather",
+      "count": 8,
+      "description": "Premium quality finished leather materials",
+      "image": "./assets/finished-leather/OT-F001.jpeg"
+    },
+    {
       "id": "laptop-bags",
       "name": "Laptop & Messenger Bags",
       "count": 8,
@@ -61,12 +68,68 @@ export const appData = {
     {
       "id": "belts",
       "name": "Leather Belts",
-      "count": 67,
+      "count": 28,
       "description": "Premium leather belts and accessories",
       "image": "./assets/belts/OT-B001.jpg"
     }
   ],
   "products": [
+    {
+      "id": "fin-001",
+      "name": "Premium Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F001.jpeg",
+      "productStyle": "OT-F001"
+    },
+    {
+      "id": "fin-002",
+      "name": "Classic Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F002.jpeg",
+      "productStyle": "OT-F002"
+    },
+    {
+      "id": "fin-003",
+      "name": "Luxury Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F003.jpeg",
+      "productStyle": "OT-F003"
+    },
+    {
+      "id": "fin-004",
+      "name": "Executive Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F004.jpeg",
+      "productStyle": "OT-F004"
+    },
+    {
+      "id": "fin-005",
+      "name": "Professional Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F005.jpeg",
+      "productStyle": "OT-F005"
+    },
+    {
+      "id": "fin-006",
+      "name": "Designer Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F006.jpeg",
+      "productStyle": "OT-F006"
+    },
+    {
+      "id": "fin-007",
+      "name": "Exclusive Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F007.jpeg",
+      "productStyle": "OT-F007"
+    },
+    {
+      "id": "fin-008",
+      "name": "Deluxe Finished Leather",
+      "category": "finished-leather",
+      "image": "./assets/finished-leather/OT-F008.jpeg",
+      "productStyle": "OT-F008"
+    },
     {
       "id": "lap-001",
       "name": "Professional Laptop Briefcase",
@@ -391,374 +454,199 @@ export const appData = {
     },
     {
       "id": "bel-001",
-      "name": "Signature Tan Belt",
+      "name": "Classic Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B001.jpg",
       "productStyle": "OT-B001"
     },
     {
       "id": "bel-002",
-      "name": "Daily Shine Black Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B002.jpg",
-      "productStyle": "OT-B002"
-    },
-    {
-      "id": "bel-003",
-      "name": "Premium Black Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B003.jpg",
-      "productStyle": "OT-B003"
-    },
-    {
-      "id": "bel-004",
-      "name": "Premium Brown Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B004.jpg",
-      "productStyle": "OT-B004"
-    },
-    {
-      "id": "bel-005",
-      "name": "Heritage Brown Leather Belt",
+      "name": "Premium Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B005.jpg",
       "productStyle": "OT-B005"
     },
     {
-      "id": "bel-006",
-      "name": "Classic Tan Leather Belt",
+      "id": "bel-003",
+      "name": "Executive Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B006.jpg",
       "productStyle": "OT-B006"
     },
     {
-      "id": "bel-007",
-      "name": "Elegant Brown Leather Belt",
+      "id": "bel-004",
+      "name": "Business Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B007.jpg",
       "productStyle": "OT-B007"
     },
     {
-      "id": "bel-008",
-      "name": "Modern Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B008.jpg",
-      "productStyle": "OT-B008"
-    },
-    {
-      "id": "bel-009",
-      "name": "Heritage Tan Leather Belt",
+      "id": "bel-005",
+      "name": "Tan Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B009.jpg",
       "productStyle": "OT-B009"
     },
     {
-      "id": "bel-010",
-      "name": "Superior Tan Leather Belt",
+      "id": "bel-006",
+      "name": "Modern Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B010.jpg",
       "productStyle": "OT-B010"
     },
     {
-      "id": "bel-011",
-      "name": "Multi Punch Black Leather Belt",
+      "id": "bel-007",
+      "name": "Multi-Punch Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B011.jpg",
       "productStyle": "OT-B011"
     },
     {
-      "id": "bel-012",
-      "name": "Artisan Tan Leather Belt",
+      "id": "bel-008",
+      "name": "Professional Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B012.jpg",
       "productStyle": "OT-B012"
     },
     {
-      "id": "bel-013",
-      "name": "Heritage Brown Leather Belt",
+      "id": "bel-009",
+      "name": "Elegant Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B013.jpg",
       "productStyle": "OT-B013"
     },
     {
-      "id": "bel-014",
-      "name": "Dual Tone Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B014.jpg",
-      "productStyle": "OT-B014"
-    },
-    {
-      "id": "bel-015",
-      "name": "Fiery Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B015.jpg",
-      "productStyle": "OT-B015"
-    },
-    {
-      "id": "bel-016",
-      "name": "Classic Black Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B016.jpg",
-      "productStyle": "OT-B016"
-    },
-    {
-      "id": "bel-017",
-      "name": "Vintage Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B017.jpg",
-      "productStyle": "OT-B017"
-    },
-    {
-      "id": "bel-018",
-      "name": "Emerald Green Leather Belt",
+      "id": "bel-010",
+      "name": "Luxury Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B018.jpg",
       "productStyle": "OT-B018"
     },
     {
-      "id": "bel-019",
-      "name": "Olive Green Leather Belt",
+      "id": "bel-011",
+      "name": "Designer Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B019.jpg",
       "productStyle": "OT-B019"
     },
     {
-      "id": "bel-020",
-      "name": "Designer Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B020.jpg",
-      "productStyle": "OT-B020"
-    },
-    {
-      "id": "bel-021",
-      "name": "Dual Shade Criss Cross Belt",
+      "id": "bel-012",
+      "name": "Fashion Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B021.jpg",
       "productStyle": "OT-B021"
     },
     {
-      "id": "bel-022",
-      "name": "Blue Criss Cross Belt",
+      "id": "bel-013",
+      "name": "Contemporary Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B022.jpg",
       "productStyle": "OT-B022"
     },
     {
-      "id": "bel-023",
-      "name": "Elegant Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B023.jpg",
-      "productStyle": "OT-B023"
-    },
-    {
-      "id": "bel-024",
-      "name": "Signature Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B024.jpg",
-      "productStyle": "OT-B024"
-    },
-    {
-      "id": "bel-025",
-      "name": "Timeless Beige Leather Belt",
+      "id": "bel-014",
+      "name": "Sophisticated Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B025.jpg",
       "productStyle": "OT-B025"
     },
     {
-      "id": "bel-026",
-      "name": "Artisan Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B026.jpg",
-      "productStyle": "OT-B026"
-    },
-    {
-      "id": "bel-027",
-      "name": "Premium Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B027.jpg",
-      "productStyle": "OT-B027"
-    },
-    {
-      "id": "bel-028",
-      "name": "Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B028.jpg",
-      "productStyle": "OT-B028"
-    },
-    {
-      "id": "bel-029",
-      "name": "Handcrafted Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B029.jpg",
-      "productStyle": "OT-B029"
-    },
-    {
-      "id": "bel-030",
-      "name": "Mordern Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B030.jpg",
-      "productStyle": "OT-B030"
-    },
-    {
-      "id": "bel-031",
-      "name": "Classic Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B031.jpg",
-      "productStyle": "OT-B031"
-    },
-    {
-      "id": "bel-032",
-      "name": "Dark Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B032.jpg",
-      "productStyle": "OT-B032"
-    },
-    {
-      "id": "bel-033",
-      "name": "Brown Smooth Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B033.jpg",
-      "productStyle": "OT-B033"
-    },
-    {
-      "id": "bel-034",
-      "name": "Superior Black Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B034.jpg",
-      "productStyle": "OT-B034"
-    },
-    {
-      "id": "bel-035",
-      "name": "Stylish Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B035.jpg",
-      "productStyle": "OT-B035"
-    },
-    {
-      "id": "bel-036",
-      "name": "Tooling Beige Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B036.jpg",
-      "productStyle": "OT-B036"
-    },
-    {
-      "id": "bel-037",
-      "name": "Embroidered Black Leather Belt",
+      "id": "bel-015",
+      "name": "Refined Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B037.jpg",
       "productStyle": "OT-B037"
     },
     {
-      "id": "bel-038",
-      "name": "Vintage Black Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B038.jpg",
-      "productStyle": "OT-B038"
-    },
-    {
-      "id": "bel-039",
-      "name": "Authentic Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B039.jpg",
-      "productStyle": "OT-B039"
-    },
-    {
-      "id": "bel-040",
-      "name": "Designer Red Background Leather Belt",
+      "id": "bel-016",
+      "name": "Distinguished Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B040.jpg",
       "productStyle": "OT-B040"
     },
     {
-      "id": "bel-041",
-      "name": "Embroidered Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B041.jpg",
-      "productStyle": "OT-B041"
-    },
-    {
-      "id": "bel-042",
-      "name": "Vintage Brown Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B042.jpg",
-      "productStyle": "OT-B042"
-    },
-    {
-      "id": "bel-043",
-      "name": "Authentic Cream Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B043.jpg",
-      "productStyle": "OT-B043"
-    },
-    {
-      "id": "bel-044",
-      "name": "Mordern Brown Leather Belt",
+      "id": "bel-017",
+      "name": "Exclusive Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B044.jpg",
       "productStyle": "OT-B044"
     },
     {
-      "id": "bel-045",
-      "name": "Embroidered Black Leather Belt",
-      "category": "belts",
-      "image": "./assets/belts/OT-B045.jpg",
-      "productStyle": "OT-B045"
-    },
-    {
-      "id": "bel-046",
-      "name": "Vintage Black Leather Belt",
+      "id": "bel-018",
+      "name": "Premium Quality Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B046.jpg",
       "productStyle": "OT-B046"
     },
     {
-      "id": "bel-047",
-      "name": "Authentic Brown Leather Belt",
+      "id": "bel-019",
+      "name": "High-End Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B047.jpg",
       "productStyle": "OT-B047"
     },
     {
-      "id": "bel-048",
-      "name": "Designer Black Leather Belt",
+      "id": "bel-020",
+      "name": "Deluxe Leather Belt",
       "category": "belts",
       "image": "./assets/belts/OT-B048.jpg",
       "productStyle": "OT-B048"
     },
     {
-      "id": "bel-049",
-      "name": "Embroidered Brown Leather Belt",
+      "id": "bel-021",
+      "name": "Brown Cross Pattern Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B049.jpg",
-      "productStyle": "OT-B049"
+      "image": "./assets/belts/_OT-B001.jpg",
+      "productStyle": "_OT-B001"
     },
     {
-      "id": "bel-050",
-      "name": "Vintage Brown Leather Belt",
+      "id": "bel-022",
+      "name": "Premium Underscore Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B050.jpg",
-      "productStyle": "OT-B050"
+      "image": "./assets/belts/_OT-B011.jpg",
+      "productStyle": "_OT-B011"
     },
     {
-      "id": "bel-051",
-      "name": "Classic Brown Leather Belt",
+      "id": "bel-023",
+      "name": "Luxury Underscore Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B051.jpg",
-      "productStyle": "OT-B051"
+      "image": "./assets/belts/_OT-B015.jpg",
+      "productStyle": "_OT-B015"
     },
     {
-      "id": "bel-052",
-      "name": "Shiny Tan Leather Belt",
+      "id": "bel-024",
+      "name": "Designer Underscore Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B052.jpg",
-      "productStyle": "OT-B052"
+      "image": "./assets/belts/_OT-B021.jpg",
+      "productStyle": "_OT-B021"
     },
     {
-      "id": "bel-053",
-      "name": "Elegant Blue Leather Belt",
+      "id": "bel-025",
+      "name": "Executive Criss Cross Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B053.jpg",
-      "productStyle": "OT-B053"
+      "image": "./assets/belts/_OT-B027.jpg",
+      "productStyle": "_OT-B027"
     },
+    {
+      "id": "bel-026",
+      "name": "Stylish Red Belt",
+      "category": "belts",
+      "image": "./assets/belts/_OT-B030.jpg",
+      "productStyle": "_OT-B030"
+    },
+    {
+      "id": "bel-027",
+      "name": "Modern Underscore Belt",
+      "category": "belts",
+      "image": "./assets/belts/_OT-B031.jpg",
+      "productStyle": "_OT-B031"
+    },
+    {
+      "id": "bel-028",
+      "name": "Special Edition Belt",
+      "category": "belts",
+      "image": "./assets/belts/_0T-B017.jpg",
+      "productStyle": "_0T-B017"
+    }
   ]
 }
