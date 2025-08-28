@@ -10,12 +10,11 @@ const About = () => {
             <p className="about-section__paragraph">
               The company OASIS TRENDS is the
               manufacturer and exporter of Leather & Non-
-              Leather Accessories and Pet Products. The
+              Leather Accessories. The
               organization is enriched with the executives
               holding 8+ years of progressive experience in
               the industry. The company is specialized in
-              manufacturing durable and efficient, high-
-              quality outcomes at an adequate value as our
+              manufacturing durable and efficient, high-quality outcomes at an adequate value as our
               collection is a synthesis of technology and
               craftsmanship. Fortunate to have in-house
               facilities for peripheral segments constituting

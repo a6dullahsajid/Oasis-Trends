@@ -6,15 +6,16 @@ const Header = () => {
   const [activeSection, setActiveSection] = useState('home')
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
+  const [hoveredBagCategory, setHoveredBagCategory] = useState(null)
 
   useEffect(() => {
     const checkMobile = () => {
       setIsMobile(window.innerWidth <= 768)
     }
-    
+
     checkMobile()
     window.addEventListener('resize', checkMobile)
-    
+
     return () => window.removeEventListener('resize', checkMobile)
   }, [])
 
@@ -90,7 +91,7 @@ const Header = () => {
   const scrollToCategory = (categoryId) => {
     // First scroll to products section
     scrollToSection('products')
-    
+
     // Dispatch a custom event to trigger category selection in products section
     setTimeout(() => {
       const categorySelectEvent = new CustomEvent('selectCategory', {
@@ -121,6 +122,7 @@ const Header = () => {
     if (!isMobile && !isMobileMenuOpen) {
       setTimeout(() => {
         setIsProductsDropdownOpen(false)
+        setHoveredBagCategory(null)
       }, 500)
     }
   }
@@ -129,6 +131,22 @@ const Header = () => {
     const baseClass = 'site-navigation__menu-link'
     return activeSection === sectionId ? `${baseClass} ${baseClass}--active` : baseClass
   }
+
+  // Group bag categories
+  const bagCategories = [
+    { id: 'laptop-bags', name: 'Laptop & Messenger Bags' },
+    { id: 'backpacks', name: 'Leather Backpacks' },
+    { id: 'tote-bag', name: 'Ladies Tote Bags' },
+    { id: 'duffel-bag', name: 'Duffle & Travel Bags' },
+    { id: 'sling-bag', name: 'Sling Bags' }
+  ]
+
+  // Non-bag categories
+  const otherCategories = [
+    { id: 'finished-leather', name: 'Finished Leather' },
+    { id: 'wash-bag', name: 'Travel Accessories' },
+    { id: 'belts', name: 'Leather Belts' }
+  ]
 
   return (
     <header className="site-header">
@@ -151,7 +169,7 @@ const Header = () => {
                 Home
               </button>
             </li>
-            <li 
+            <li
               className="site-navigation__menu-item site-navigation__menu-item--has-dropdown"
               onMouseEnter={handleProductsMouseEnter}
               onMouseLeave={handleProductsMouseLeave}
@@ -169,24 +187,103 @@ const Header = () => {
                 }}
               >
                 Our Products
-                <span className="site-navigation__dropdown-arrow"> v</span>
+                <img 
+                  src="./assets/icons/down.svg" 
+                  alt="Dropdown" 
+                  className={`site-navigation__dropdown-arrow ${isProductsDropdownOpen ? 'site-navigation__dropdown-arrow--open' : ''}`} 
+                />
               </button>
               {isProductsDropdownOpen && (
-                <div 
-                  className="site-navigation__dropdown"
-                >
-                  {appData.categories.map((category) => (
-                    <button
-                      key={category.id}
-                      className="site-navigation__dropdown-item"
-                      onClick={() => {
-                        scrollToCategory(category.id)
-                        closeProductsDropdown()
-                      }}
-                    >
-                      <span className="site-navigation__dropdown-item-name">{category.name}</span>
-                    </button>
-                  ))}
+                <div className="site-navigation__dropdown">
+                  {/* Finished Leather first */}
+                  <button
+                    key="finished-leather"
+                    className="site-navigation__dropdown-item"
+                    onClick={() => {
+                      scrollToCategory('finished-leather')
+                      closeProductsDropdown()
+                    }}
+                  >
+                    <span className="site-navigation__dropdown-item-name">Finished Leather</span>
+                  </button>
+
+                  {/* Bags category with sub-categories */}
+                  <div
+                    className="site-navigation__dropdown-item site-navigation__dropdown-item--has-submenu"
+                    onMouseEnter={() => !isMobile && setHoveredBagCategory('bags')}
+                    onMouseLeave={() => !isMobile && setHoveredBagCategory(null)}
+                    onClick={() => {
+                      if (isMobile) {
+                        // On mobile, toggle the bag sub-categories
+                        setHoveredBagCategory(hoveredBagCategory === 'bags' ? null : 'bags')
+                      }
+                    }}
+                  >
+                    <div className="site-navigation__dropdown-item-name-container">
+                      <span className="site-navigation__dropdown-item-name">Leather Bags</span>
+                      <span className="site-navigation__dropdown-arrow-right"> ›</span>
+                    </div>
+
+                    {/* Sub-dropdown for bag types */}
+                    {hoveredBagCategory === 'bags' && !isMobile && (
+                      <div className="site-navigation__sub-dropdown">
+                        {bagCategories.map((category) => (
+                          <button
+                            key={category.id}
+                            className="site-navigation__sub-dropdown-item"
+                            onClick={() => {
+                              scrollToCategory(category.id)
+                              closeProductsDropdown()
+                            }}
+                          >
+                            <span className="site-navigation__sub-dropdown-item-name">{category.name}</span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Mobile sub-dropdown */}
+                    {isMobile && hoveredBagCategory === 'bags' && (
+                      <div className="site-navigation__sub-dropdown">
+                        {bagCategories.map((category) => (
+                          <button
+                            key={category.id}
+                            className="site-navigation__sub-dropdown-item"
+                            onClick={() => {
+                              scrollToCategory(category.id)
+                              closeProductsDropdown()
+                            }}
+                          >
+                            <span className="site-navigation__sub-dropdown-item-name">{category.name}</span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Leather Belts category */}
+                  <button
+                    key="belts"
+                    className="site-navigation__dropdown-item"
+                    onClick={() => {
+                      scrollToCategory('belts')
+                      closeProductsDropdown()
+                    }}
+                  >
+                    <span className="site-navigation__dropdown-item-name">Leather Belts</span>
+                  </button>
+
+                  {/* Leather Accessories last */}
+                  <button
+                    key="wash-bag"
+                    className="site-navigation__dropdown-item"
+                    onClick={() => {
+                      scrollToCategory('wash-bag')
+                      closeProductsDropdown()
+                    }}
+                  >
+                    <span className="site-navigation__dropdown-item-name">Leather Accessories</span>
+                  </button>
                 </div>
               )}
             </li>

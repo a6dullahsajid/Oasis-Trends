@@ -25,10 +25,27 @@ const IndexPage = () => {
     if (categoryId === 'all') {
       console.log('Setting all products:', appData.products.length)
       setCurrentProducts([...appData.products])
+    } else if (categoryId === 'leather-bags') {
+      // Special case for leather-bags: show all bag products
+      const bagProducts = appData.products.filter(product => product.category === 'leather-bags')
+      console.log('Leather bags products:', bagProducts.length)
+      setCurrentProducts(bagProducts)
     } else {
-      const filtered = appData.products.filter(product => product.category === categoryId)
-      console.log('Filtered products:', filtered.length)
-      setCurrentProducts(filtered)
+      // Check if this is a bag sub-category
+      const bagSubCategories = ['laptop-bags', 'backpacks', 'tote-bag', 'duffel-bag', 'sling-bag']
+      if (bagSubCategories.includes(categoryId)) {
+        // Filter bag products by subCategory
+        const filtered = appData.products.filter(product => 
+          product.category === 'leather-bags' && product.subCategory === categoryId
+        )
+        console.log('Filtered bag products by subCategory:', filtered.length)
+        setCurrentProducts(filtered)
+      } else {
+        // Filter non-bag products by category
+        const filtered = appData.products.filter(product => product.category === categoryId)
+        console.log('Filtered non-bag products:', filtered.length)
+        setCurrentProducts(filtered)
+      }
     }
   }
 
@@ -39,14 +56,50 @@ const IndexPage = () => {
     if (query === '') {
       if (currentFilter === 'all') {
         setCurrentProducts([...appData.products])
+      } else if (currentFilter === 'leather-bags') {
+        // Show all bag products when search is cleared
+        const bagProducts = appData.products.filter(product => product.category === 'leather-bags')
+        setCurrentProducts(bagProducts)
       } else {
-        const filtered = appData.products.filter(product => product.category === currentFilter)
-        setCurrentProducts(filtered)
+        // Check if this is a bag sub-category
+        const bagSubCategories = ['laptop-bags', 'backpacks', 'tote-bag', 'duffel-bag', 'sling-bag']
+        if (bagSubCategories.includes(currentFilter)) {
+          // Filter bag products by subCategory
+          const filtered = appData.products.filter(product => 
+            product.category === 'leather-bags' && product.subCategory === currentFilter
+          )
+          setCurrentProducts(filtered)
+        } else {
+          // Filter non-bag products by category
+          const filtered = appData.products.filter(product => product.category === currentFilter)
+          setCurrentProducts(filtered)
+        }
       }
       return
     }
     
-    const searchResults = appData.products.filter(product =>
+    // Search within current filter
+    let searchableProducts
+    if (currentFilter === 'all') {
+      searchableProducts = appData.products
+    } else if (currentFilter === 'leather-bags') {
+      // Search within all bag products
+      searchableProducts = appData.products.filter(product => product.category === 'leather-bags')
+    } else {
+      // Check if this is a bag sub-category
+      const bagSubCategories = ['laptop-bags', 'backpacks', 'tote-bag', 'duffel-bag', 'sling-bag']
+      if (bagSubCategories.includes(currentFilter)) {
+        // Search within bag products by subCategory
+        searchableProducts = appData.products.filter(product => 
+          product.category === 'leather-bags' && product.subCategory === currentFilter
+        )
+      } else {
+        // Search within non-bag products by category
+        searchableProducts = appData.products.filter(product => product.category === currentFilter)
+      }
+    }
+    
+    const searchResults = searchableProducts.filter(product =>
       product.name.toLowerCase().includes(query.toLowerCase()) ||
       product.productStyle.toLowerCase().includes(query.toLowerCase())
     )

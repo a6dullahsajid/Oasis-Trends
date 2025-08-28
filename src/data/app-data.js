@@ -133,98 +133,112 @@ export const appData = {
     {
       "id": "lap-001",
       "name": "Professional Laptop Briefcase",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-001/img71.jpg",
       "productStyle": "OT-001"
     },
     {
       "id": "lap-002",
       "name": "Modern Messenger Bag",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-002/img78.jpg",
       "productStyle": "OT-002"
     },
     {
       "id": "lap-003",
       "name": "Executive Laptop Bag",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-003/img82.jpg",
       "productStyle": "OT-003"
     },
     {
       "id": "lap-004",
       "name": "Business Laptop Bag",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-004/img89.jpg",
       "productStyle": "OT-004"
     },
     {
       "id": "lap-005",
       "name": "Classic Laptop Bag",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-005/img93.jpg",
       "productStyle": "OT-005"
     },
     {
       "id": "lap-006",
       "name": "Slim Laptop Portfolio",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-006/img99.jpg",
       "productStyle": "OT-006"
     },
     {
       "id": "lap-007",
       "name": "Executive Laptop Satchel",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-007/img103.jpg",
       "productStyle": "OT-007"
     },
     {
       "id": "lap-008",
       "name": "Modern Laptop Crossbody",
-      "category": "laptop-bags",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/OT-008/img107.jpg",
       "productStyle": "OT-008"
     },
     {
       "id": "bac-001",
       "name": "Classic Leather Backpack",
-      "category": "backpacks",
+      "category": "leather-bags",
+      "subCategory": "backpacks",
       "image": "./assets/backpacks/OT-009/img115.jpg",
       "productStyle": "OT-009"
     },
     {
       "id": "bac-002",
       "name": "Travel Backpack",
-      "category": "backpacks",
+      "category": "leather-bags",
+      "subCategory": "backpacks",
       "image": "./assets/backpacks/OT-010/img121.jpg",
       "productStyle": "OT-010"
     },
     {
       "id": "bac-003",
       "name": "Leather School Backpack",
-      "category": "backpacks",
+      "category": "leather-bags",
+      "subCategory": "backpacks",
       "image": "./assets/backpacks/OT-011/img126.jpg",
       "productStyle": "OT-011"
     },
     {
       "id": "bac-004",
       "name": "Weekend Adventure Backpack",
-      "category": "backpacks",
+      "category": "leather-bags",
+      "subCategory": "backpacks",
       "image": "./assets/backpacks/OT-012/img130.jpg",
       "productStyle": "OT-012"
     },
     {
       "id": "bac-005",
       "name": "Urban Commuter Backpack",
-      "category": "backpacks",
+      "category": "leather-bags",
+      "subCategory": "backpacks",
       "image": "./assets/backpacks/OT-013/img136.jpg",
       "productStyle": "OT-013"
     },
     {
       "id": "bac-006",
       "name": "Professional Work Backpack",
-      "category": "backpacks",
+      "category": "leather-bags",
+      "subCategory": "backpacks",
       "image": "./assets/backpacks/OT-014/img142.jpg",
       "productStyle": "OT-014"
     },
@@ -245,161 +259,184 @@ export const appData = {
     {
       "id": "tot-001",
       "name": "Elegant Ladies Tote",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-040/img281.jpg",
       "productStyle": "OT-040"
     },
     {
       "id": "tot-002",
       "name": "Structured Tote Bag",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-041/img285.jpg",
       "productStyle": "OT-041"
     },
     {
       "id": "tot-003",
       "name": "Casual Tote Bag",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-042/img289.jpg",
       "productStyle": "OT-042"
     },
     {
       "id": "tot-004",
       "name": "Shopping Tote Bag",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-043/img293.jpg",
       "productStyle": "OT-043"
     },
     {
       "id": "tot-005",
       "name": "Professional Work Tote",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-044/img298.jpg",
       "productStyle": "OT-044"
     },
     {
       "id": "tot-006",
       "name": "Evening Tote Bag",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-045/img303.jpg",
       "productStyle": "OT-045"
     },
     {
       "id": "tot-007",
       "name": "Weekend Tote Bag",
-      "category": "tote-bag",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
       "image": "./assets/tote-bag/OT-046/img307.jpg",
       "productStyle": "OT-046"
     },
     {
       "id": "duf-001",
       "name": "Executive Travel Duffle",
-      "category": "duffel-bag",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/OT-017/img163.jpg",
       "productStyle": "OT-017"
     },
     {
       "id": "duf-002",
       "name": "Weekend Duffle",
-      "category": "duffel-bag",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/OT-018/img169.jpg",
       "productStyle": "OT-018"
     },
     {
       "id": "duf-003",
       "name": "Travel Duffle Bag",
-      "category": "duffel-bag",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/OT-019/img173.jpg",
       "productStyle": "OT-019"
     },
     {
       "id": "duf-004",
       "name": "Compact Duffle Bag",
-      "category": "duffel-bag",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/OT-020/img179.jpg",
       "productStyle": "OT-020"
     },
     {
       "id": "duf-005",
       "name": "Luxury Travel Duffle",
-      "category": "duffel-bag",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/OT-021/img185.jpg",
       "productStyle": "OT-021"
     },
     {
       "id": "sli-001",
       "name": "Compact Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-022/img195.jpg",
       "productStyle": "OT-022"
     },
     {
       "id": "sli-002",
       "name": "Urban Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-023/img199.jpg",
       "productStyle": "OT-023"
     },
     {
       "id": "sli-003",
       "name": "Mini Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-024/img204.jpg",
       "productStyle": "OT-024"
     },
     {
       "id": "sli-004",
       "name": "Fashion Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-025/img210.jpg",
       "productStyle": "OT-025"
     },
     {
       "id": "sli-005",
       "name": "Professional Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-026/img211.jpg",
       "productStyle": "OT-026"
     },
     {
       "id": "sli-006",
       "name": "Casual Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-027/img220.jpg",
       "productStyle": "OT-027"
     },
     {
       "id": "sli-007",
       "name": "Travel Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-028/img224.jpg",
       "productStyle": "OT-028"
     },
     {
       "id": "sli-008",
       "name": "Evening Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-029/img228.jpg",
       "productStyle": "OT-029"
     },
     {
       "id": "sli-009",
       "name": "Weekend Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-030/img232.png",
       "productStyle": "OT-030"
     },
     {
       "id": "sli-010",
       "name": "Urban Commuter Sling",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-031/img230.png",
       "productStyle": "OT-031"
     },
     {
       "id": "sli-011",
       "name": "Luxury Sling Bag",
-      "category": "sling-bag",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-032/img240.png",
       "productStyle": "OT-032"
     },
