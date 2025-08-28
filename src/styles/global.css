@@ -2824,9 +2824,9 @@ a:hover {
   .hero-section__whatsapp-btn-text {
     background: white;
     color: #1a2f4a;
-    padding: 3px 6px;
+    padding: 1px 3px;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 600;
     margin-top: 3px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -3914,9 +3914,9 @@ a:hover {
   .hero-section__whatsapp-btn-text {
     background: white;
     color: #1a2f4a;
-    padding: 3px 6px;
+    padding: 1px 4px;
     border-radius: 5px;
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 600;
     margin-top: 3px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

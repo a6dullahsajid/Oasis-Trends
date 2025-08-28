@@ -596,57 +596,57 @@ export const appData = {
       "id": "bel-021",
       "name": "Brown Cross Pattern Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B001.jpg",
-      "productStyle": "_OT-B001"
+      "image": "./assets/belts/NOT-B001.jpg",
+      "productStyle": "NOT-B001"
     },
     {
       "id": "bel-022",
-      "name": "Premium Underscore Belt",
+      "name": "Premium Brown Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B011.jpg",
-      "productStyle": "_OT-B011"
+      "image": "./assets/belts/NOT-B011.jpg",
+      "productStyle": "NOT-B011"
     },
     {
       "id": "bel-023",
-      "name": "Luxury Underscore Belt",
+      "name": "Washed Tan Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B015.jpg",
-      "productStyle": "_OT-B015"
+      "image": "./assets/belts/NOT-B015.jpg",
+      "productStyle": "NOT-B015"
     },
     {
       "id": "bel-024",
-      "name": "Designer Underscore Belt",
+      "name": "Vintage Black Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B021.jpg",
-      "productStyle": "_OT-B021"
+      "image": "./assets/belts/NOT-B021.jpg",
+      "productStyle": "NOT-B021"
     },
     {
       "id": "bel-025",
       "name": "Executive Criss Cross Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B027.jpg",
-      "productStyle": "_OT-B027"
+      "image": "./assets/belts/NOT-B027.jpg",
+      "productStyle": "NOT-B027"
     },
     {
       "id": "bel-026",
       "name": "Stylish Red Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B030.jpg",
-      "productStyle": "_OT-B030"
+      "image": "./assets/belts/NOT-B030.jpg",
+      "productStyle": "NOT-B030"
     },
     {
       "id": "bel-027",
-      "name": "Modern Underscore Belt",
+      "name": "Classic Brown Belt",
       "category": "belts",
-      "image": "./assets/belts/_OT-B031.jpg",
-      "productStyle": "_OT-B031"
+      "image": "./assets/belts/NOT-B031.jpg",
+      "productStyle": "NOT-B031"
     },
     {
       "id": "bel-028",
       "name": "Special Edition Belt",
       "category": "belts",
-      "image": "./assets/belts/_0T-B017.jpg",
-      "productStyle": "_0T-B017"
+      "image": "./assets/belts/NOT-B017.jpg",
+      "productStyle": "NOT-B017"
     }
   ]
 }
