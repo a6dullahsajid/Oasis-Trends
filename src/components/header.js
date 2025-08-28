@@ -5,6 +5,18 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768)
+    }
+    
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,10 +53,18 @@ const Header = () => {
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
+    // Close products dropdown when mobile menu is toggled
+    if (isProductsDropdownOpen) {
+      setIsProductsDropdownOpen(false)
+    }
   }
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false)
+    // Close products dropdown when mobile menu is closed
+    if (isProductsDropdownOpen) {
+      setIsProductsDropdownOpen(false)
+    }
   }
 
   const scrollToSection = (sectionId) => {
@@ -89,6 +109,22 @@ const Header = () => {
     setIsProductsDropdownOpen(false)
   }
 
+  const handleProductsMouseEnter = () => {
+    // Only show dropdown on hover for desktop devices
+    if (!isMobile && !isMobileMenuOpen) {
+      setIsProductsDropdownOpen(true)
+    }
+  }
+
+  const handleProductsMouseLeave = () => {
+    // Only hide dropdown on mouse leave for desktop devices
+    if (!isMobile && !isMobileMenuOpen) {
+      setTimeout(() => {
+        setIsProductsDropdownOpen(false)
+      }, 500)
+    }
+  }
+
   const getNavItemClass = (sectionId) => {
     const baseClass = 'site-navigation__menu-link'
     return activeSection === sectionId ? `${baseClass} ${baseClass}--active` : baseClass
@@ -117,23 +153,20 @@ const Header = () => {
             </li>
             <li 
               className="site-navigation__menu-item site-navigation__menu-item--has-dropdown"
-              onMouseLeave={() => {
-                if (!isMobileMenuOpen) {
-                  setTimeout(() => {
-                    setIsProductsDropdownOpen(false)
-                  }, 500)
-                }
-              }}
+              onMouseEnter={handleProductsMouseEnter}
+              onMouseLeave={handleProductsMouseLeave}
             >
               <button
                 className={getNavItemClass('products')}
-                onClick={() => scrollToSection('products')}
-                onMouseEnter={() => {
-                  if (!isMobileMenuOpen) {
-                    setIsProductsDropdownOpen(true)
+                onClick={() => {
+                  if (isMobile) {
+                    // On mobile, only toggle dropdown, don't scroll
+                    toggleProductsDropdown()
+                  } else {
+                    // On desktop, scroll to products section
+                    scrollToSection('products')
                   }
                 }}
-                onTouchStart={() => toggleProductsDropdown()}
               >
                 Our Products
                 <span className="site-navigation__dropdown-arrow"> v</span>
