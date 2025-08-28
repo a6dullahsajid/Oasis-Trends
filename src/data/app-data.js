@@ -135,7 +135,7 @@ export const appData = {
       "name": "Professional Laptop Briefcase",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-001/img71.jpg",
+      "image": "./assets/laptop-bags/OT-001/img73.jpg",
       "productStyle": "OT-001"
     },
     {
@@ -143,7 +143,7 @@ export const appData = {
       "name": "Modern Messenger Bag",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-002/img78.jpg",
+      "image": "./assets/laptop-bags/OT-002/img77.jpg",
       "productStyle": "OT-002"
     },
     {
@@ -159,7 +159,7 @@ export const appData = {
       "name": "Business Laptop Bag",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-004/img89.jpg",
+      "image": "./assets/laptop-bags/OT-004/img88.jpg",
       "productStyle": "OT-004"
     },
     {
@@ -199,7 +199,7 @@ export const appData = {
       "name": "Classic Leather Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-009/img115.jpg",
+      "image": "./assets/backpacks/OT-009/img116.jpg",
       "productStyle": "OT-009"
     },
     {
@@ -239,7 +239,7 @@ export const appData = {
       "name": "Professional Work Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-014/img142.jpg",
+      "image": "./assets/backpacks/OT-014/img143.jpg",
       "productStyle": "OT-014"
     },
     {
@@ -253,7 +253,7 @@ export const appData = {
       "id": "bac-008",
       "name": "Travel Adventure Backpack",
       "category": "backpacks",
-      "image": "./assets/backpacks/OT-016/img152.jpg",
+      "image": "./assets/backpacks/OT-016/img153.jpg",
       "productStyle": "OT-016"
     },
     {
@@ -317,7 +317,7 @@ export const appData = {
       "name": "Executive Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-017/img163.jpg",
+      "image": "./assets/duffel-bag/OT-017/img164.jpg",
       "productStyle": "OT-017"
     },
     {
@@ -333,7 +333,7 @@ export const appData = {
       "name": "Travel Duffle Bag",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-019/img173.jpg",
+      "image": "./assets/duffel-bag/OT-019/img174.jpg",
       "productStyle": "OT-019"
     },
     {
@@ -349,7 +349,7 @@ export const appData = {
       "name": "Luxury Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-021/img185.jpg",
+      "image": "./assets/duffel-bag/OT-021/img186.jpg",
       "productStyle": "OT-021"
     },
     {

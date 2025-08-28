@@ -18,6 +18,7 @@ const Products = ({
   ]
 
   const bagSubCategories = [
+    { id: 'leather-bags', subId: 'leather-bags', name: 'All Bags' },
     { id: 'leather-bags', subId: 'laptop-bags', name: 'Laptop & Messenger Bags' },
     { id: 'leather-bags', subId: 'backpacks', name: 'Leather Backpacks' },
     { id: 'leather-bags', subId: 'tote-bag', name: 'Ladies Tote Bags' },

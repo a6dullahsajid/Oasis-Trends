@@ -8,27 +8,18 @@ const About = () => {
           <h2 className="about-section__title">About Us</h2>
           <div className="about-section__text">
             <p className="about-section__paragraph">
-              The company OASIS TRENDS is the
-              manufacturer and exporter of Leather & Non-
-              Leather Accessories. The
-              organization is enriched with the executives
-              holding 8+ years of progressive experience in
-              the industry. The company is specialized in
-              manufacturing durable and efficient, high-quality outcomes at an adequate value as our
-              collection is a synthesis of technology and
-              craftsmanship. Fortunate to have in-house
-              facilities for peripheral segments constituting
-              the product.
+              OASIS TRENDS stands as a premier manufacturer and global exporter of premium leather and non-leather accessories. 
+              Our organization is distinguished by leadership with over 8 years of progressive industry expertise, enabling us 
+              to deliver exceptional quality products that combine innovative technology with traditional craftsmanship. 
+              We take pride in our comprehensive in-house manufacturing capabilities, ensuring complete control over every 
+              aspect of production from concept to completion.
             </p>
             <p className="about-section__paragraph">
-              We believe we have a responsibility to
-              conduct our business in an ethical way. We
-              expect the same from our business partners,
-              and focus on working with long-term, strategic
-              suppliers that demonstrate a commitment to
-              engaging with their workers and ensuring safe
-              working condSomethinglike this al
-              responsibility.
+              At the core of our business philosophy lies a steadfast commitment to ethical business practices and 
+              sustainable operations. We maintain rigorous standards for our business partnerships, collaborating exclusively 
+              with long-term, strategic suppliers who share our values of worker welfare, safe working environments, 
+              and corporate responsibility. This commitment extends throughout our supply chain, ensuring that every 
+              product we deliver reflects our dedication to excellence and integrity.
             </p>
           </div>
         </div>

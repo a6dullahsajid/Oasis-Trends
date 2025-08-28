@@ -5,37 +5,37 @@ const Services = () => {
     {
       id: 1,
       title: "Custom Leather Manufacturing",
-      description: "We specialize in creating premium handmade leather products with exceptional craftsmanship tailored to your specifications.",
+      description: "Premium bespoke leather manufacturing with master craftsmanship, delivering exceptional quality products tailored to your exact specifications and design requirements.",
       icon: "./assets/icons/factory.png"
     },
     {
       id: 2,
       title: "Private Labeling Services",
-      description: "Build your brand with our private labeling service. We manufacture high-quality leather goods with your branding and specifications.",
+      description: "Comprehensive private labeling solutions enabling you to establish your brand identity with premium leather goods manufactured to your exact specifications and quality standards.",
       icon: "./assets/icons/label.png"
     },
     {
       id: 3,
       title: "Bulk Manufacturing",
-      description: "Large-scale production capabilities with 5000+ units monthly production capacity for businesses worldwide.",
+      description: "Large-scale production capabilities specializing in 3000-3500 leather bags monthly with premium quality and fast turnaround for businesses worldwide.",
       icon: "./assets/icons/bulk.png"
     },
     {
       id: 4,
       title: "Custom Design & Development",
-      description: "Our expert team works with you to design and develop unique leather products that match your vision and requirements.",
+      description: "Collaborative design and development services where our expert team transforms your creative vision into exceptional leather products through innovative design solutions.",
       icon: "./assets/icons/customization.png"
     },
     {
       id: 5,
       title: "Quality Assurance",
-      description: "We ensure 100% quality in every product with rigorous testing and quality control processes throughout manufacturing.",
+      description: "Comprehensive quality management system ensuring 100% product excellence through rigorous testing, inspection protocols, and continuous quality monitoring.",
       icon: "./assets/icons/verified.png"
     },
     {
       id: 6,
       title: "Global Export Services",
-      description: "We export to 25+ countries worldwide with reliable shipping and logistics support for international clients.",
+      description: "International trade expertise with seamless export services to 15+ countries, supported by reliable logistics, customs compliance, and dedicated customer service.",
       icon: "./assets/icons/global.png"
     }
   ]
