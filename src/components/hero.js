@@ -25,7 +25,7 @@ const Hero = () => {
     },
     {
       id: 3,
-      image: './assets/industry_image3.jpg',
+      image: './assets/industry_image4.jpeg',
       title: 'Global Leather Solutions',
       subtitle: 'Manufacturing Excellence Worldwide',
       description: 'Partner with a trusted manufacturer serving 15+ countries. Our commitment to quality, innovation, and timely delivery makes us the preferred choice for international businesses.',

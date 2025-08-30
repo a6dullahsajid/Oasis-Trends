@@ -28,49 +28,49 @@ export const appData = {
       "name": "Laptop & Messenger Bags",
       "count": 8,
       "description": "Professional bags for work and business",
-      "image": "./assets/laptop-bags/OT-001/img71.jpg"
+      "image": "./assets/laptop-bags/OT-001/img71.png"
     },
     {
       "id": "backpacks",
       "name": "Leather Backpacks",
       "count": 8,
       "description": "Comfortable and stylish backpacks",
-      "image": "./assets/backpacks/OT-009/img115.jpg"
+      "image": "./assets/backpacks/OT-009/img115.png"
     },
     {
       "id": "tote-bag",
       "name": "Ladies Tote Bags",
       "count": 7,
       "description": "Elegant bags designed for women",
-      "image": "./assets/tote-bag/OT-040/img281.jpg"
+      "image": "./assets/tote-bag/OT-040/img281.png"
     },
     {
       "id": "duffel-bag",
       "name": "Duffle & Travel Bags",
       "count": 5,
       "description": "Perfect companions for your travels",
-      "image": "./assets/duffel-bag/OT-017/img163.jpg"
+      "image": "./assets/duffel-bag/OT-017/img163.png"
     },
     {
       "id": "sling-bag",
       "name": "Sling Bags",
       "count": 11,
       "description": "Compact and versatile sling bags",
-      "image": "./assets/sling-bag/OT-022/img195.jpg"
+      "image": "./assets/sling-bag/OT-022/img195.png"
     },
     {
       "id": "wash-bag",
       "name": "Travel Accessories",
       "count": 7,
       "description": "Essential accessories for travelers",
-      "image": "./assets/wash-bag/OT-033/img248.jpg"
+      "image": "./assets/wash-bag/OT-033/img248.png"
     },
     {
       "id": "belts",
       "name": "Leather Belts",
       "count": 28,
       "description": "Premium leather belts and accessories",
-      "image": "./assets/belts/OT-B001.jpg"
+      "image": "./assets/belts/OT-B001.png"
     }
   ],
   "products": [
@@ -135,7 +135,7 @@ export const appData = {
       "name": "Professional Laptop Briefcase",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-001/img73.jpg",
+      "image": "./assets/laptop-bags/OT-001/img73.png",
       "productStyle": "OT-001"
     },
     {
@@ -143,7 +143,7 @@ export const appData = {
       "name": "Modern Messenger Bag",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-002/img77.jpg",
+      "image": "./assets/laptop-bags/OT-002/img77.png",
       "productStyle": "OT-002"
     },
     {
@@ -151,7 +151,7 @@ export const appData = {
       "name": "Executive Laptop Bag",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-003/img82.jpg",
+      "image": "./assets/laptop-bags/OT-003/img82.png",
       "productStyle": "OT-003"
     },
     {
@@ -159,7 +159,7 @@ export const appData = {
       "name": "Business Laptop Bag",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-004/img88.jpg",
+      "image": "./assets/laptop-bags/OT-004/img88.png",
       "productStyle": "OT-004"
     },
     {
@@ -167,7 +167,7 @@ export const appData = {
       "name": "Classic Laptop Bag",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-005/img93.jpg",
+      "image": "./assets/laptop-bags/OT-005/img93.png",
       "productStyle": "OT-005"
     },
     {
@@ -175,7 +175,7 @@ export const appData = {
       "name": "Slim Laptop Portfolio",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-006/img99.jpg",
+      "image": "./assets/laptop-bags/OT-006/img99.png",
       "productStyle": "OT-006"
     },
     {
@@ -183,7 +183,7 @@ export const appData = {
       "name": "Executive Laptop Satchel",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-007/img103.jpg",
+      "image": "./assets/laptop-bags/OT-007/img103.png",
       "productStyle": "OT-007"
     },
     {
@@ -191,7 +191,7 @@ export const appData = {
       "name": "Modern Laptop Crossbody",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/OT-008/img107.jpg",
+      "image": "./assets/laptop-bags/OT-008/img107.png",
       "productStyle": "OT-008"
     },
     {
@@ -199,7 +199,7 @@ export const appData = {
       "name": "Classic Leather Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-009/img116.jpg",
+      "image": "./assets/backpacks/OT-009/img116.png",
       "productStyle": "OT-009"
     },
     {
@@ -207,7 +207,7 @@ export const appData = {
       "name": "Travel Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-010/img121.jpg",
+      "image": "./assets/backpacks/OT-010/img121.png",
       "productStyle": "OT-010"
     },
     {
@@ -215,7 +215,7 @@ export const appData = {
       "name": "Leather School Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-011/img126.jpg",
+      "image": "./assets/backpacks/OT-011/img126.png",
       "productStyle": "OT-011"
     },
     {
@@ -223,7 +223,7 @@ export const appData = {
       "name": "Weekend Adventure Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-012/img130.jpg",
+      "image": "./assets/backpacks/OT-012/img130.png",
       "productStyle": "OT-012"
     },
     {
@@ -231,7 +231,7 @@ export const appData = {
       "name": "Urban Commuter Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-013/img136.jpg",
+      "image": "./assets/backpacks/OT-013/img136.png",
       "productStyle": "OT-013"
     },
     {
@@ -239,21 +239,21 @@ export const appData = {
       "name": "Professional Work Backpack",
       "category": "leather-bags",
       "subCategory": "backpacks",
-      "image": "./assets/backpacks/OT-014/img143.jpg",
+      "image": "./assets/backpacks/OT-014/img143.png",
       "productStyle": "OT-014"
     },
     {
       "id": "bac-007",
       "name": "Student Backpack",
       "category": "backpacks",
-      "image": "./assets/backpacks/OT-015/img148.jpg",
+      "image": "./assets/backpacks/OT-015/img148.png",
       "productStyle": "OT-015"
     },
     {
       "id": "bac-008",
       "name": "Travel Adventure Backpack",
       "category": "backpacks",
-      "image": "./assets/backpacks/OT-016/img153.jpg",
+      "image": "./assets/backpacks/OT-016/img153.png",
       "productStyle": "OT-016"
     },
     {
@@ -261,7 +261,7 @@ export const appData = {
       "name": "Elegant Ladies Tote",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-040/img281.jpg",
+      "image": "./assets/tote-bag/OT-040/img281.png",
       "productStyle": "OT-040"
     },
     {
@@ -269,7 +269,7 @@ export const appData = {
       "name": "Structured Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-041/img285.jpg",
+      "image": "./assets/tote-bag/OT-041/img285.png",
       "productStyle": "OT-041"
     },
     {
@@ -277,7 +277,7 @@ export const appData = {
       "name": "Casual Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-042/img289.jpg",
+      "image": "./assets/tote-bag/OT-042/img289.png",
       "productStyle": "OT-042"
     },
     {
@@ -285,7 +285,7 @@ export const appData = {
       "name": "Shopping Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-043/img293.jpg",
+      "image": "./assets/tote-bag/OT-043/img293.png",
       "productStyle": "OT-043"
     },
     {
@@ -293,7 +293,7 @@ export const appData = {
       "name": "Professional Work Tote",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-044/img298.jpg",
+      "image": "./assets/tote-bag/OT-044/img298.png",
       "productStyle": "OT-044"
     },
     {
@@ -301,7 +301,7 @@ export const appData = {
       "name": "Evening Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-045/img303.jpg",
+      "image": "./assets/tote-bag/OT-045/img303.png",
       "productStyle": "OT-045"
     },
     {
@@ -309,7 +309,7 @@ export const appData = {
       "name": "Weekend Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/OT-046/img307.jpg",
+      "image": "./assets/tote-bag/OT-046/img307.png",
       "productStyle": "OT-046"
     },
     {
@@ -317,7 +317,7 @@ export const appData = {
       "name": "Executive Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-017/img164.jpg",
+      "image": "./assets/duffel-bag/OT-017/img164.png",
       "productStyle": "OT-017"
     },
     {
@@ -325,7 +325,7 @@ export const appData = {
       "name": "Weekend Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-018/img169.jpg",
+      "image": "./assets/duffel-bag/OT-018/img169.png",
       "productStyle": "OT-018"
     },
     {
@@ -333,7 +333,7 @@ export const appData = {
       "name": "Travel Duffle Bag",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-019/img174.jpg",
+      "image": "./assets/duffel-bag/OT-019/img174.png",
       "productStyle": "OT-019"
     },
     {
@@ -341,7 +341,7 @@ export const appData = {
       "name": "Compact Duffle Bag",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-020/img179.jpg",
+      "image": "./assets/duffel-bag/OT-020/img179.png",
       "productStyle": "OT-020"
     },
     {
@@ -349,7 +349,7 @@ export const appData = {
       "name": "Luxury Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/OT-021/img186.jpg",
+      "image": "./assets/duffel-bag/OT-021/img186.png",
       "productStyle": "OT-021"
     },
     {
@@ -357,7 +357,7 @@ export const appData = {
       "name": "Compact Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-022/img195.jpg",
+      "image": "./assets/sling-bag/OT-022/img195.png",
       "productStyle": "OT-022"
     },
     {
@@ -365,7 +365,7 @@ export const appData = {
       "name": "Urban Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-023/img199.jpg",
+      "image": "./assets/sling-bag/OT-023/img199.png",
       "productStyle": "OT-023"
     },
     {
@@ -373,7 +373,7 @@ export const appData = {
       "name": "Mini Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-024/img204.jpg",
+      "image": "./assets/sling-bag/OT-024/img204.png",
       "productStyle": "OT-024"
     },
     {
@@ -381,7 +381,7 @@ export const appData = {
       "name": "Fashion Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-025/img210.jpg",
+      "image": "./assets/sling-bag/OT-025/img210.png",
       "productStyle": "OT-025"
     },
     {
@@ -389,7 +389,7 @@ export const appData = {
       "name": "Professional Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-026/img211.jpg",
+      "image": "./assets/sling-bag/OT-026/img211.png",
       "productStyle": "OT-026"
     },
     {
@@ -397,7 +397,7 @@ export const appData = {
       "name": "Casual Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-027/img220.jpg",
+      "image": "./assets/sling-bag/OT-027/img220.png",
       "productStyle": "OT-027"
     },
     {
@@ -405,7 +405,7 @@ export const appData = {
       "name": "Travel Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-028/img224.jpg",
+      "image": "./assets/sling-bag/OT-028/img224.png",
       "productStyle": "OT-028"
     },
     {
@@ -413,7 +413,7 @@ export const appData = {
       "name": "Evening Sling Bag",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/OT-029/img228.jpg",
+      "image": "./assets/sling-bag/OT-029/img228.png",
       "productStyle": "OT-029"
     },
     {
@@ -444,245 +444,245 @@ export const appData = {
       "id": "was-001",
       "name": "Travel Toiletry Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-033/img248.jpg",
+      "image": "./assets/wash-bag/OT-033/img248.png",
       "productStyle": "OT-033"
     },
     {
       "id": "was-002",
       "name": "Deluxe Wash Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-034/img252.jpg",
+      "image": "./assets/wash-bag/OT-034/img252.png",
       "productStyle": "OT-034"
     },
     {
       "id": "was-003",
       "name": "Compact Wash Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-035/img257.jpg",
+      "image": "./assets/wash-bag/OT-035/img257.png",
       "productStyle": "OT-035"
     },
     {
       "id": "was-004",
       "name": "Travel Wash Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-036/img261.jpg",
+      "image": "./assets/wash-bag/OT-036/img261.png",
       "productStyle": "OT-036"
     },
     {
       "id": "was-005",
       "name": "Professional Wash Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-037/img265.jpg",
+      "image": "./assets/wash-bag/OT-037/img265.png",
       "productStyle": "OT-037"
     },
     {
       "id": "was-006",
       "name": "Luxury Wash Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-038/img269.jpg",
+      "image": "./assets/wash-bag/OT-038/img269.png",
       "productStyle": "OT-038"
     },
     {
       "id": "was-007",
       "name": "Weekend Wash Bag",
       "category": "wash-bag",
-      "image": "./assets/wash-bag/OT-039/img273.jpg",
+      "image": "./assets/wash-bag/OT-039/img273.png",
       "productStyle": "OT-039"
     },
     {
       "id": "bel-001",
       "name": "Classic Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B001.jpg",
+      "image": "./assets/belts/OT-B001.png",
       "productStyle": "OT-B001"
     },
     {
       "id": "bel-002",
       "name": "Premium Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B005.jpg",
+      "image": "./assets/belts/OT-B005.png",
       "productStyle": "OT-B005"
     },
     {
       "id": "bel-003",
       "name": "Executive Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B006.jpg",
+      "image": "./assets/belts/OT-B006.png",
       "productStyle": "OT-B006"
     },
     {
       "id": "bel-004",
       "name": "Business Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B007.jpg",
+      "image": "./assets/belts/OT-B007.png",
       "productStyle": "OT-B007"
     },
     {
       "id": "bel-005",
       "name": "Tan Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B009.jpg",
+      "image": "./assets/belts/OT-B009.png",
       "productStyle": "OT-B009"
     },
     {
       "id": "bel-006",
       "name": "Modern Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B010.jpg",
+      "image": "./assets/belts/OT-B010.png",
       "productStyle": "OT-B010"
     },
     {
       "id": "bel-007",
       "name": "Multi-Punch Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B011.jpg",
+      "image": "./assets/belts/OT-B011.png",
       "productStyle": "OT-B011"
     },
     {
       "id": "bel-008",
       "name": "Professional Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B012.jpg",
+      "image": "./assets/belts/OT-B012.png",
       "productStyle": "OT-B012"
     },
     {
       "id": "bel-009",
       "name": "Elegant Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B013.jpg",
+      "image": "./assets/belts/OT-B013.png",
       "productStyle": "OT-B013"
     },
     {
       "id": "bel-010",
       "name": "Luxury Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B018.jpg",
+      "image": "./assets/belts/OT-B018.png",
       "productStyle": "OT-B018"
     },
     {
       "id": "bel-011",
       "name": "Designer Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B019.jpg",
+      "image": "./assets/belts/OT-B019.png",
       "productStyle": "OT-B019"
     },
     {
       "id": "bel-012",
       "name": "Fashion Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B021.jpg",
+      "image": "./assets/belts/OT-B021.png",
       "productStyle": "OT-B021"
     },
     {
       "id": "bel-013",
       "name": "Contemporary Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B022.jpg",
+      "image": "./assets/belts/OT-B022.png",
       "productStyle": "OT-B022"
     },
     {
       "id": "bel-014",
       "name": "Sophisticated Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B025.jpg",
+      "image": "./assets/belts/OT-B025.png",
       "productStyle": "OT-B025"
     },
     {
       "id": "bel-015",
       "name": "Refined Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B037.jpg",
+      "image": "./assets/belts/OT-B037.png",
       "productStyle": "OT-B037"
     },
     {
       "id": "bel-016",
       "name": "Distinguished Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B040.jpg",
+      "image": "./assets/belts/OT-B040.png",
       "productStyle": "OT-B040"
     },
     {
       "id": "bel-017",
       "name": "Exclusive Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B044.jpg",
+      "image": "./assets/belts/OT-B044.png",
       "productStyle": "OT-B044"
     },
     {
       "id": "bel-018",
       "name": "Premium Quality Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B046.jpg",
+      "image": "./assets/belts/OT-B046.png",
       "productStyle": "OT-B046"
     },
     {
       "id": "bel-019",
       "name": "High-End Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B047.jpg",
+      "image": "./assets/belts/OT-B047.png",
       "productStyle": "OT-B047"
     },
     {
       "id": "bel-020",
       "name": "Deluxe Leather Belt",
       "category": "belts",
-      "image": "./assets/belts/OT-B048.jpg",
+      "image": "./assets/belts/OT-B048.png",
       "productStyle": "OT-B048"
     },
     {
       "id": "bel-021",
       "name": "Brown Cross Pattern Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B001.jpg",
+      "image": "./assets/belts/NOT-B001.png",
       "productStyle": "NOT-B001"
     },
     {
       "id": "bel-022",
       "name": "Premium Brown Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B011.jpg",
+      "image": "./assets/belts/NOT-B011.png",
       "productStyle": "NOT-B011"
     },
     {
       "id": "bel-023",
       "name": "Washed Tan Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B015.jpg",
+      "image": "./assets/belts/NOT-B015.png",
       "productStyle": "NOT-B015"
     },
     {
       "id": "bel-024",
       "name": "Vintage Black Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B021.jpg",
+      "image": "./assets/belts/NOT-B021.png",
       "productStyle": "NOT-B021"
     },
     {
       "id": "bel-025",
       "name": "Executive Criss Cross Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B027.jpg",
+      "image": "./assets/belts/NOT-B027.png",
       "productStyle": "NOT-B027"
     },
     {
       "id": "bel-026",
       "name": "Stylish Red Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B030.jpg",
+      "image": "./assets/belts/NOT-B030.png",
       "productStyle": "NOT-B030"
     },
     {
       "id": "bel-027",
       "name": "Classic Brown Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B031.jpg",
+      "image": "./assets/belts/NOT-B031.png",
       "productStyle": "NOT-B031"
     },
     {
       "id": "bel-028",
       "name": "Special Edition Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B017.jpg",
+      "image": "./assets/belts/NOT-B017.png",
       "productStyle": "NOT-B017"
     }
   ]

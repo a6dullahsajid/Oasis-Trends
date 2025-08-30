@@ -83,8 +83,12 @@ const Products = ({
               {mainCategories.map(category => (
                 <button
                   key={category.id}
-                  className={`products-section__filter-button ${currentFilter === category.id ? 'products-section__filter-button--active' : ''
-                    }`}
+                  className={`products-section__filter-button ${
+                    currentFilter === category.id || 
+                    (category.id === 'leather-bags' && bagSubCategories.some(bagCat => bagCat.subId === currentFilter))
+                      ? 'products-section__filter-button--active' 
+                      : ''
+                  }`}
                   onClick={() => handleCategoryClick(category.id, category.hasSubControls)}
                 >
                   {category.name}

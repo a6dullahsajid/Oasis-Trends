@@ -518,7 +518,7 @@ a:hover {
   display: flex;
   background: none;
   border: none;
-  color: rgba(55, 65, 81, 1);
+  color: rgb(66, 90, 129);
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;
@@ -746,12 +746,14 @@ a:hover {
     font-size: 13px;
     position: relative;
   }
+
   .site-navigation__dropdown-item-name-container {
     display: flex;
     align-items: center;
     justify-content: start;
     width: 100%;
   }
+
   .site-navigation__sub-dropdown {
     position: static;
     left: auto;
@@ -782,15 +784,15 @@ a:hover {
     gap: 10px;
     padding: 20px;
   }
-  
+
   .products-section__all-image-container:nth-child(1) {
     grid-row: span 1;
   }
-  
+
   .products-section__all-image-container:nth-child(2) {
     grid-column: span 1;
   }
-  
+
   .products-section__all-image-container:nth-child(5) {
     grid-row: span 1;
   }
@@ -889,26 +891,26 @@ a:hover {
   line-height: 1.2;
   letter-spacing: 0.3px;
   font-weight: 700;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.4);
+  text-shadow: -2px 0px 1px rgba(0, 0, 0, 1);
 }
 
 .hero-carousel__subtitle {
   font-size: 18px;
-  color: #3b82f6;
+  color: rgb(38, 79, 145);
   margin-bottom: 16px;
   line-height: 1.4;
   font-weight: 600;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: -1px 0px 1px rgb(2, 13, 49);
 }
 
 .hero-carousel__description {
   font-size: 16px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 24px;
   line-height: 1.6;
   width: 50%;
   font-weight: 500;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .hero-carousel__cta-button {
@@ -916,7 +918,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 12px 24px;
-  background: rgba(59, 130, 246, 1);
+  background: rgb(38, 79, 145);
   color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 0px;
@@ -988,7 +990,7 @@ a:hover {
 }
 
 .hero-carousel__dot--active {
-  background: rgba(59, 130, 246, 1);
+  background: #1e40af;
   transform: scale(1.3);
 }
 
@@ -1012,14 +1014,14 @@ a:hover {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
   font-size: 36px;
-  color: rgba(55, 65, 81, 1);
+  color: rgb(40 61 95);
   margin-bottom: 16px;
   line-height: 1.2;
 }
 
 .hero-section__company-description {
   font-size: 18px;
-  color: rgba(107, 114, 128, 1);
+  color: rgb(66 90 129 / 80%);
   margin-bottom: 32px;
   font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
   word-spacing: 5px;
@@ -1075,10 +1077,10 @@ a:hover {
 .hero-section__stat-item {
   text-align: center;
   padding: 10px 8px;
-  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%);
+  background: linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
   border-radius: 10px;
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  box-shadow: 
+  border: 1px solid rgba(30, 64, 175, 0.2);
+  box-shadow:
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -1111,14 +1113,17 @@ a:hover {
     opacity: 0;
     transform: translateX(50px);
   }
-  33%{
+
+  33% {
     opacity: 0.3;
     transform: translateX(40px);
   }
-  66%{
+
+  66% {
     opacity: 0.6;
     transform: translateX(20px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -1134,20 +1139,14 @@ a:hover {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  background: linear-gradient(0deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1e40af;
   margin-bottom: 4px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .hero-section__stat-label {
   font-size: 12px;
-  background: linear-gradient(135deg, #1e40af 0%, #2159b1 50%, #4675ad 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #64748b;
+  color: rgb(66 90 129);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -1175,7 +1174,7 @@ a:hover {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  color: rgba(55, 65, 81, 1);
+  color: rgb(40 61 95);
   margin-bottom: 32px;
 }
 
@@ -1190,19 +1189,20 @@ a:hover {
 }
 
 .services-section__card {
-  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%);
+  background: linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
   border-radius: 12px;
   padding: 20px 16px;
-  box-shadow: 
+  box-shadow:
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
   width: 350px;
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba(226, 232, 240, 0.8);
+  border: 1px solid rgba(30, 64, 175, 0.2);
   text-align: center;
   position: relative;
   overflow: hidden;
+  backdrop-filter: blur(1px);
 }
 
 .services-section__card-icon {
@@ -1251,12 +1251,12 @@ a:hover {
 .services-section__card-title {
   font-size: 18px;
   font-weight: 600;
-  color: rgba(55, 65, 81, 1);
+  color: #34457e;
   margin-bottom: 8px;
 }
 
 .services-section__card-description {
-  color: rgba(107, 114, 128, 1);
+  color: rgb(66 90 129);
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
@@ -1289,7 +1289,7 @@ a:hover {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
   font-size: 40px;
-  color: rgba(55, 65, 81, 1);
+  color: rgb(40 61 95);
   margin: 0;
   font-weight: 600;
 }
@@ -1392,18 +1392,18 @@ a:hover {
   .products-section__filters {
     gap: 12px;
   }
-  
+
   .products-section__filter-button {
     padding: 12px 20px;
     font-size: 14px;
     font-weight: 600;
   }
-  
+
   .products-section__sub-controls-inline {
     gap: 4px;
     margin-top: 6px;
   }
-  
+
   .products-section__sub-filter-button {
     padding: 4px 8px;
     font-size: 10px;
@@ -1418,12 +1418,13 @@ a:hover {
 }
 
 .products-section__card {
-  background: linear-gradient(100deg, rgb(238, 247, 253) 0%, rgb(209, 219, 242) 100%);
+  background:
+    linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1.5px solid rgba(213, 222, 241, 1);
+  border: 1.5px solid rgba(30, 64, 175, 0.2);
 }
 
 
@@ -1432,7 +1433,11 @@ a:hover {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.products-section__card-image:hover {
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 .products-section__card-image--contained {
@@ -1484,10 +1489,7 @@ a:hover {
   font-family: Open Sans, sans-serif;
   font-size: 18px;
   font-weight: 600;
-  background: linear-gradient(135deg, #1e40af 0%, #1769ed 50%, #1e40af 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #1e40af;
   margin-bottom: 4px;
 }
 
@@ -1496,10 +1498,7 @@ a:hover {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
-  background: linear-gradient(135deg, #5a5799 0%,  #817dca 50%,  #5a5799 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: rgb(90, 87, 153);
   margin-bottom: 8px;
 }
 
@@ -1563,7 +1562,8 @@ a:hover {
 /* Make specific images span multiple rows for collage effect */
 .products-section__all-image-container:nth-child(1) {
   grid-row: span 3;
-} 
+}
+
 .products-section__all-image-container:nth-child(2) {
   grid-column: span 2;
 }
@@ -1572,7 +1572,7 @@ a:hover {
   grid-row: span 2;
 }
 
-.products-section__all-image-container img{
+.products-section__all-image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1621,7 +1621,7 @@ a:hover {
 @media (max-width: 768px) {
   .products-section__all-category-name {
     transform: translateY(0);
-    background: rgba(255, 255, 255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     font-size: 7px;
     font-weight: 400;
     padding: 0px 6px;
@@ -1655,7 +1655,7 @@ a:hover {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  color: rgba(55, 65, 81, 1);
+  color: rgb(40 61 95);
   margin-bottom: 24px;
 }
 
@@ -1667,7 +1667,7 @@ a:hover {
 
 .about-section__paragraph {
   font-size: 16px;
-  color: rgba(107, 114, 128, 1);
+  color: rgb(66 90 129 / 80%);
   margin: 0;
   font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
   word-spacing: 5px;
@@ -1705,7 +1705,7 @@ a:hover {
 }
 
 .site-footer__section-title {
-  color: rgba(55, 65, 81, 1);
+  color: rgb(40 61 95);
   margin-bottom: 16px;
   font-size: 18px;
   font-weight: 600;
@@ -1989,7 +1989,7 @@ a:hover {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
   font-size: 40px;
-  color: rgba(55, 65, 81, 1);
+  color: rgb(40 61 95);
   margin-bottom: 32px;
 }
 
@@ -2019,9 +2019,9 @@ a:hover {
   align-items: flex-start;
   gap: 16px;
   padding: 20px;
-  background: linear-gradient(135deg, rgb(247, 250, 252) 0%, rgb(213, 222, 241) 100%);
+  background: linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
   border-radius: 12px;
-  border: 1.5px solid rgba(213, 222, 241, 1);
+  border: 1.5px solid rgba(30, 64, 175, 0.2);
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -2045,13 +2045,13 @@ a:hover {
 .contact-section__detail-item h4 {
   font-size: 16px;
   font-weight: 600;
-  color: rgba(55, 65, 81, 1);
+  color: #34457e;
   margin: 0 0 8px 0;
 }
 
 .contact-section__detail-item p {
   font-size: 14px;
-  color: rgba(107, 114, 128, 1);
+  color: rgb(66 90 129);
   margin: 0;
   line-height: 1.5;
 }
@@ -2059,10 +2059,10 @@ a:hover {
 
 
 .contact-section__form-container {
-  background: linear-gradient(135deg, rgb(247, 250, 252) 0%, rgb(213, 222, 241) 100%);
+  background: linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
   border-radius: 12px;
   padding: 32px;
-  border: 1.5px solid rgba(213, 222, 241, 1);
+  border: 1.5px solid rgba(30, 64, 175, 0.2);
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -2087,7 +2087,7 @@ a:hover {
 .contact-section__form-group label {
   font-size: 14px;
   font-weight: 500;
-  color: rgba(55, 65, 81, 1);
+  color: #34457e;
 }
 
 .contact-section__form-group input,
@@ -2510,7 +2510,7 @@ a:hover {
     border-radius: 10px;
     background: linear-gradient(145deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%);
     border: 1px solid rgba(226, 232, 240, 0.8);
-    box-shadow: 
+    box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.1),
       0 1px 2px -1px rgba(0, 0, 0, 0.06);
     opacity: 0;
@@ -2518,20 +2518,16 @@ a:hover {
   }
 
   .hero-section__stat-number {
-      display: block;
-      font-size: 12px;
-      font-weight: 700;
-      background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 0px;
-  
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1e40af;
+    margin-bottom: 0px;
   }
 
   .hero-section__stat-label {
     font-size: 9px;
-    color: #64748b;
+    color: rgb(66 90 129);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.3px;
@@ -2569,14 +2565,17 @@ a:hover {
     border-radius: 10px;
     width: 200px;
     padding: 16px 12px;
-    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 50%, #e2e8f0 100%);
-    border: 1px solid rgba(226, 232, 240, 0.8);
-    box-shadow: 
-      0 2px 4px -1px rgba(0, 0, 0, 0.1),
-      0 1px 2px -1px rgba(0, 0, 0, 0.06);
+    background:
+      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%),
+      repeating-linear-gradient(45deg,
+        transparent,
+        transparent 2px,
+        rgba(30, 64, 175, 0.02) 2px,
+        rgba(30, 64, 175, 0.02) 4px);
     font-size: 12px;
     position: relative;
     overflow: hidden;
+    backdrop-filter: blur(1px);
   }
 
   .services-section__card-icon {
@@ -2672,10 +2671,12 @@ a:hover {
   }
 
   .products-section__card {
-    background: linear-gradient(100deg, rgb(238, 247, 253) 0%, rgb(209, 219, 242) 100%);
+    background:
+      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
     border-radius: 12px;
     width: 270px;
     min-height: 270px;
+    border: 1.5px solid rgba(30, 64, 175, 0.2);
   }
 
 
@@ -2715,7 +2716,6 @@ a:hover {
   .products-section__card-title {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(55, 65, 81, 1);
     margin-bottom: 4px;
   }
 
@@ -3176,7 +3176,6 @@ a:hover {
 
   .contact-section__detail-item p {
     font-size: 9px;
-    color: rgba(107, 114, 128, 1);
     margin: 0;
     line-height: 1;
   }
@@ -3263,6 +3262,7 @@ a:hover {
     gap: 8px;
     padding: 10px;
   }
+
   /* Sidebar Menu Styles */
   .site-navigation__menu {
     position: fixed;
@@ -3621,6 +3621,7 @@ a:hover {
   .hero-section__stat-number {
     display: block;
     font-size: 10px;
+    color: #1e40af;
     margin-bottom: 2px;
   }
 
@@ -3660,8 +3661,16 @@ a:hover {
     border-radius: 10px;
     width: 200px;
     padding: 16px;
+    background:
+      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%),
+      repeating-linear-gradient(45deg,
+        transparent,
+        transparent 2px,
+        rgba(30, 64, 175, 0.02) 2px,
+        rgba(30, 64, 175, 0.02) 4px);
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.7);
     font-size: 12px;
+    border: 1px solid rgba(30, 64, 175, 0.2);
   }
 
   .services-section__card-icon {
@@ -3757,10 +3766,12 @@ a:hover {
   }
 
   .products-section__card {
-    background: linear-gradient(100deg, rgb(238, 247, 253) 0%, rgb(209, 219, 242) 100%);
+    background:
+      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
     border-radius: 12px;
     width: 270px;
     min-height: 270px;
+    border: 1.5px solid rgba(30, 64, 175, 0.2);
   }
 
 
@@ -3800,7 +3811,6 @@ a:hover {
   .products-section__card-title {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(55, 65, 81, 1);
     margin-bottom: 4px;
   }
 
@@ -4266,7 +4276,6 @@ a:hover {
 
   .contact-section__detail-item p {
     font-size: 9px;
-    color: rgba(107, 114, 128, 1);
     margin: 0;
     line-height: 1;
   }
@@ -4748,8 +4757,16 @@ a:hover {
     width: 180px;
     height: 170px;
     padding: 16px;
+    background:
+      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%),
+      repeating-linear-gradient(45deg,
+        transparent,
+        transparent 2px,
+        rgba(30, 64, 175, 0.02) 2px,
+        rgba(30, 64, 175, 0.02) 4px);
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.7);
     font-size: 12px;
+    border: 1px solid rgba(30, 64, 175, 0.2);
   }
 
   .services-section__card-icon {
@@ -4844,10 +4861,12 @@ a:hover {
   }
 
   .products-section__card {
-    background: linear-gradient(100deg, rgb(238, 247, 253) 0%, rgb(209, 219, 242) 100%);
+    background:
+      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%);
     border-radius: 12px;
     width: 270px;
     min-height: 270px;
+    border: 1.5px solid rgba(30, 64, 175, 0.2);
   }
 
 
@@ -4887,7 +4906,6 @@ a:hover {
   .products-section__card-title {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(55, 65, 81, 1);
     margin-bottom: 4px;
   }
 
@@ -5353,7 +5371,6 @@ a:hover {
 
   .contact-section__detail-item p {
     font-size: 9px;
-    color: rgba(107, 114, 128, 1);
     margin: 0;
     line-height: 1;
   }

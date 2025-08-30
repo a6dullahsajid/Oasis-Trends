@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="site-footer__content">
           <div className="site-footer__section">
             <h3 className="site-footer__section-title">Oasis Trends</h3>
-            <p className="site-footer__section-text">Custom Leather Goods Manufacturer</p>
+            <p className="site-footer__section-text">Manufacturer of Finished Leather and Leather Goods</p>
           </div>
           
           <div className="site-footer__section">
@@ -72,9 +72,6 @@ const Footer = () => {
               </p>
               <p className="site-footer__section-contact-item">
                 Email: info@oasistrends.com
-              </p>
-              <p className="site-footer__section-contact-item">
-                GSTIN: 09AADFO8714C1ZC
               </p>
             </div>
           </div>

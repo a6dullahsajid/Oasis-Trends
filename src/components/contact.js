@@ -51,10 +51,8 @@ const Contact = () => {
                   <img src="./assets/icons/phone.png" alt="Contact Person" />
                 </div>
                 <div>
-                  <h4>Contact Person</h4>
-                  <p><strong>Mohammad Nabeel</strong><br />
-                  Managing Partner<br />
-                  <strong>Contact:</strong> +91 6394938670</p>
+                  <h4>Contact</h4>
+                  <p>+91 6394938670</p>
                 </div>
               </div>
               
