@@ -14,7 +14,7 @@ const Products = ({
     { id: 'finished-leather', name: 'Finished Leather' },
     { id: 'leather-bags', name: 'Leather Bags', hasSubControls: true },
     { id: 'belts', name: 'Leather Belts' },
-    { id: 'wash-bag', name: 'Leather Accessories' },
+    { id: 'leather-accessories', name: 'Leather Accessories' },
   ]
 
   const bagSubCategories = [
@@ -136,9 +136,9 @@ const Products = ({
               <img src="./assets/all/belts.png" alt="Leather Belts" className='products-section__all-belts' />
               <div className="products-section__all-category-name">Leather Belts</div>
             </div>
-            <div className="products-section__all-image-container products-section__travel" onClick={() => onFilterChange('wash-bag')}>
+            <div className="products-section__all-image-container products-section__travel" onClick={() => onFilterChange('leather-accessories')}>
               <img src="./assets/all/travel.png" alt="Travel Accessories" className='products-section__all-travel' />
-              <div className="products-section__all-category-name">Travel Accessories</div>
+              <div className="products-section__all-category-name">Leather Accessories</div>
             </div>
             <div className="products-section__all-image-container products-section__sling-bag" onClick={() => onFilterChange('sling-bag')}>
               <img src="./assets/all/slingbags.png" alt="Sling Bags" className='products-section__all-slingbags' />
@@ -180,10 +180,33 @@ const Products = ({
               </div>
             ))}
           </div>
+                )}
+
+        {/* Special case for Leather Accessories - show wash-bags, wallets, and key-chains */}
+        {currentFilter === 'leather-accessories' && (
+          <div className="products-section__grid">
+            {products.filter(product => 
+              product.category === 'wash-bag' || product.category === 'wallets' || product.category === 'key-chain'
+            ).map(product => (
+              <div key={product.id} className="products-section__card" data-category={product.category}>
+                <div className="products-section__card-image-container">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="products-section__card-image--contained"
+                  />
+                </div>
+                <div className="products-section__card-content">
+                  <h3 className="products-section__card-title">{product.name}</h3>
+                  <p className="products-section__card-style">Style No: {product.productStyle}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         )}
 
         {/* Show products for specific sub-categories */}
-        {currentFilter !== 'all' && currentFilter !== 'leather-bags' && (
+        {currentFilter !== 'all' && currentFilter !== 'leather-bags' && currentFilter !== 'leather-accessories' && (
           <div className="products-section__grid">
             {(() => {
               console.log('Filtering for:', currentFilter)

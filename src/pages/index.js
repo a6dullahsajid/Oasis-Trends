@@ -19,6 +19,7 @@ const IndexPage = () => {
   // Filter products by category
   const filterByCategory = (categoryId) => {
     console.log('Filtering by category:', categoryId)
+    
     setCurrentFilter(categoryId)
     setSearchQuery('')
     
@@ -30,6 +31,13 @@ const IndexPage = () => {
       const bagProducts = appData.products.filter(product => product.category === 'leather-bags')
       console.log('Leather bags products:', bagProducts.length)
       setCurrentProducts(bagProducts)
+    } else if (categoryId === 'leather-accessories') {
+      // Special case for leather-accessories: show wash-bags, wallets, and key-chains
+      const leatherAccessoriesProducts = appData.products.filter(product => 
+        product.category === 'wash-bag' || product.category === 'wallets' || product.category === 'key-chain'
+      )
+      console.log('Leather accessories products:', leatherAccessoriesProducts.length)
+      setCurrentProducts(leatherAccessoriesProducts)
     } else {
       // Check if this is a bag sub-category
       const bagSubCategories = ['laptop-bags', 'backpacks', 'tote-bag', 'duffel-bag', 'sling-bag']
@@ -56,11 +64,17 @@ const IndexPage = () => {
     if (query === '') {
       if (currentFilter === 'all') {
         setCurrentProducts([...appData.products])
-      } else if (currentFilter === 'leather-bags') {
-        // Show all bag products when search is cleared
-        const bagProducts = appData.products.filter(product => product.category === 'leather-bags')
-        setCurrentProducts(bagProducts)
-      } else {
+          } else if (currentFilter === 'leather-bags') {
+      // Show all bag products when search is cleared
+      const bagProducts = appData.products.filter(product => product.category === 'leather-bags')
+      setCurrentProducts(bagProducts)
+    } else if (currentFilter === 'leather-accessories') {
+      // Show all leather accessories when search is cleared
+      const leatherAccessoriesProducts = appData.products.filter(product => 
+        product.category === 'wash-bag' || product.category === 'wallets' || product.category === 'key-chain'
+      )
+      setCurrentProducts(leatherAccessoriesProducts)
+    } else {
         // Check if this is a bag sub-category
         const bagSubCategories = ['laptop-bags', 'backpacks', 'tote-bag', 'duffel-bag', 'sling-bag']
         if (bagSubCategories.includes(currentFilter)) {
@@ -85,6 +99,11 @@ const IndexPage = () => {
     } else if (currentFilter === 'leather-bags') {
       // Search within all bag products
       searchableProducts = appData.products.filter(product => product.category === 'leather-bags')
+    } else if (currentFilter === 'leather-accessories') {
+      // Search within leather accessories (wash-bags, wallets, and key-chains)
+      searchableProducts = appData.products.filter(product => 
+        product.category === 'wash-bag' || product.category === 'wallets' || product.category === 'key-chain'
+      )
     } else {
       // Check if this is a bag sub-category
       const bagSubCategories = ['laptop-bags', 'backpacks', 'tote-bag', 'duffel-bag', 'sling-bag']

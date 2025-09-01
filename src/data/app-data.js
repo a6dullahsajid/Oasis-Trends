@@ -26,7 +26,7 @@ export const appData = {
     {
       "id": "laptop-bags",
       "name": "Laptop & Messenger Bags",
-      "count": 11,
+      "count": 12,
       "description": "Professional bags for work and business",
       "image": "./assets/laptop-bags/OT-001/img71.png"
     },
@@ -47,14 +47,14 @@ export const appData = {
     {
       "id": "duffel-bag",
       "name": "Duffle & Travel Bags",
-      "count": 7,
+      "count": 10,
       "description": "Perfect companions for your travels",
       "image": "./assets/duffel-bag/OT-017/img163.png"
     },
     {
       "id": "sling-bag",
       "name": "Sling Bags",
-      "count": 12,
+      "count": 15,
       "description": "Compact and versatile sling bags",
       "image": "./assets/sling-bag/OT-022/img195.png"
     },
@@ -63,6 +63,20 @@ export const appData = {
       "name": "Travel Accessories",
       "count": 7,
       "description": "Essential accessories for travelers",
+      "image": "./assets/wash-bag/OT-033/img248.png"
+    },
+    {
+      "id": "wallets",
+      "name": "Leather Wallets",
+      "count": 6,
+      "description": "Premium leather wallets and card holders",
+      "image": "./assets/wallets/OT-W001.png"
+    },
+    {
+      "id": "leather-accessories",
+      "name": "Leather Accessories",
+      "count": 18,
+      "description": "Travel accessories, leather wallets, and key chains",
       "image": "./assets/wash-bag/OT-033/img248.png"
     },
     {
@@ -217,6 +231,14 @@ export const appData = {
       "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/NEW-003/img93.png",
       "productStyle": "NEW-003"
+    },
+    {
+      "id": "lap-012",
+      "name": "New Premium Laptop Bag 004",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
+      "image": "./assets/laptop-bags/NEW-004/img43.png",
+      "productStyle": "NEW-004"
     },
     {
       "id": "bac-001",
@@ -401,6 +423,30 @@ export const appData = {
       "productStyle": "NEW-002"
     },
     {
+      "id": "duf-008",
+      "name": "New Premium Duffle Bag 003",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
+      "image": "./assets/duffel-bag/NEW-003/img40.png",
+      "productStyle": "NEW-003"
+    },
+    {
+      "id": "duf-009",
+      "name": "New Premium Duffle Bag 004",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
+      "image": "./assets/duffel-bag/NEW-004/img41.png",
+      "productStyle": "NEW-004"
+    },
+    {
+      "id": "duf-010",
+      "name": "New Premium Duffle Bag 005",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
+      "image": "./assets/duffel-bag/NEW-005/img42.png",
+      "productStyle": "NEW-005"
+    },
+    {
       "id": "sli-001",
       "name": "Compact Sling Bag",
       "category": "leather-bags",
@@ -497,6 +543,30 @@ export const appData = {
       "productStyle": "NEW-001"
     },
     {
+      "id": "sli-013",
+      "name": "New Premium Sling Bag 002",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
+      "image": "./assets/sling-bag/NEW-002/img44.png",
+      "productStyle": "NEW-002"
+    },
+    {
+      "id": "sli-014",
+      "name": "New Premium Sling Bag 003",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
+      "image": "./assets/sling-bag/NEW-003/img45.png",
+      "productStyle": "NEW-003"
+    },
+    {
+      "id": "sli-015",
+      "name": "New Premium Sling Bag 004",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
+      "image": "./assets/sling-bag/NEW-004/img46.png",
+      "productStyle": "NEW-004"
+    },
+    {
       "id": "was-001",
       "name": "Travel Toiletry Bag",
       "category": "wash-bag",
@@ -544,6 +614,83 @@ export const appData = {
       "category": "wash-bag",
       "image": "./assets/wash-bag/OT-039/img273.png",
       "productStyle": "OT-039"
+    },
+    {
+      "id": "wal-001",
+      "name": "Classic Leather Wallet",
+      "category": "wallets",
+      "image": "./assets/wallets/OT-W001.png",
+      "productStyle": "OT-W001"
+    },
+    {
+      "id": "wal-002",
+      "name": "Premium Leather Wallet",
+      "category": "wallets",
+      "image": "./assets/wallets/OT-W002.png",
+      "productStyle": "OT-W002"
+    },
+    {
+      "id": "wal-003",
+      "name": "Executive Leather Wallet",
+      "category": "wallets",
+      "image": "./assets/wallets/OT-W003.png",
+      "productStyle": "OT-W003"
+    },
+    {
+      "id": "wal-004",
+      "name": "Business Leather Wallet",
+      "category": "wallets",
+      "image": "./assets/wallets/OT-W004.png",
+      "productStyle": "OT-W004"
+    },
+    {
+      "id": "wal-005",
+      "name": "Modern Leather Wallet",
+      "category": "wallets",
+      "image": "./assets/wallets/OT-W005.png",
+      "productStyle": "OT-W005"
+    },
+    {
+      "id": "wal-006",
+      "name": "Compact Leather Wallet",
+      "category": "wallets",
+      "image": "./assets/wallets/OT-W006.png",
+      "productStyle": "OT-W006"
+    },
+    {
+      "id": "key-001",
+      "name": "Classic Leather Key Chain",
+      "category": "key-chain",
+      "image": "./assets/key-chain/OT-KC001.png",
+      "productStyle": "OT-KC001"
+    },
+    {
+      "id": "key-002",
+      "name": "Premium Leather Key Chain",
+      "category": "key-chain",
+      "image": "./assets/key-chain/OT-KC002.png",
+      "productStyle": "OT-KC002"
+    },
+    {
+      "id": "key-003",
+      "name": "Executive Leather Key Chain",
+      "category": "key-chain",
+      "image": "./assets/key-chain/OT-KC003.png",
+      "productStyle": "OT-KC003"
+    },
+    {
+      "id": "key-004",
+      "name": "Business Leather Key Chain",
+      "category": "key-chain",
+      "image": "./assets/key-chain/OT-KC004.png",
+      "productStyle": "OT-KC004"
+    },
+    {
+      "id": "key-005",
+      "name": "Modern Leather Key Chain",
+      "category": "key-chain",
+      "image": "./assets/key-chain/OT-KC005.png",
+      "productStyle": "OT-KC005"
     },
     {
       "id": "bel-001",

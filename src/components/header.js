@@ -144,7 +144,7 @@ const Header = () => {
   // Non-bag categories
   const otherCategories = [
     { id: 'finished-leather', name: 'Finished Leather' },
-    { id: 'wash-bag', name: 'Travel Accessories' },
+            { id: 'leather-accessories', name: 'Leather Accessories' },
     { id: 'belts', name: 'Leather Belts' }
   ]
 
@@ -275,10 +275,10 @@ const Header = () => {
 
                   {/* Leather Accessories last */}
                   <button
-                    key="wash-bag"
+                    key="leather-accessories"
                     className="site-navigation__dropdown-item"
                     onClick={() => {
-                      scrollToCategory('wash-bag')
+                      scrollToCategory('leather-accessories')
                       closeProductsDropdown()
                     }}
                   >

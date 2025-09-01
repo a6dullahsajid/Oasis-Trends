@@ -2565,13 +2565,6 @@ a:hover {
     border-radius: 10px;
     width: 200px;
     padding: 16px 12px;
-    background:
-      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%),
-      repeating-linear-gradient(45deg,
-        transparent,
-        transparent 2px,
-        rgba(30, 64, 175, 0.02) 2px,
-        rgba(30, 64, 175, 0.02) 4px);
     font-size: 12px;
     position: relative;
     overflow: hidden;
@@ -3661,13 +3654,6 @@ a:hover {
     border-radius: 10px;
     width: 200px;
     padding: 16px;
-    background:
-      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%),
-      repeating-linear-gradient(45deg,
-        transparent,
-        transparent 2px,
-        rgba(30, 64, 175, 0.02) 2px,
-        rgba(30, 64, 175, 0.02) 4px);
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.7);
     font-size: 12px;
     border: 1px solid rgba(30, 64, 175, 0.2);
@@ -4757,13 +4743,6 @@ a:hover {
     width: 180px;
     height: 170px;
     padding: 16px;
-    background:
-      linear-gradient(145deg, rgba(30, 64, 175, 0.05) 0%, rgba(59, 130, 246, 0.08) 50%, rgba(96, 165, 250, 0.1) 100%),
-      repeating-linear-gradient(45deg,
-        transparent,
-        transparent 2px,
-        rgba(30, 64, 175, 0.02) 2px,
-        rgba(30, 64, 175, 0.02) 4px);
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.7);
     font-size: 12px;
     border: 1px solid rgba(30, 64, 175, 0.2);
