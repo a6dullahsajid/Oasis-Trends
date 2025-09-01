@@ -26,7 +26,7 @@ export const appData = {
     {
       "id": "laptop-bags",
       "name": "Laptop & Messenger Bags",
-      "count": 8,
+      "count": 11,
       "description": "Professional bags for work and business",
       "image": "./assets/laptop-bags/OT-001/img71.png"
     },
@@ -40,21 +40,21 @@ export const appData = {
     {
       "id": "tote-bag",
       "name": "Ladies Tote Bags",
-      "count": 7,
+      "count": 8,
       "description": "Elegant bags designed for women",
       "image": "./assets/tote-bag/OT-040/img281.png"
     },
     {
       "id": "duffel-bag",
       "name": "Duffle & Travel Bags",
-      "count": 5,
+      "count": 7,
       "description": "Perfect companions for your travels",
       "image": "./assets/duffel-bag/OT-017/img163.png"
     },
     {
       "id": "sling-bag",
       "name": "Sling Bags",
-      "count": 11,
+      "count": 12,
       "description": "Compact and versatile sling bags",
       "image": "./assets/sling-bag/OT-022/img195.png"
     },
@@ -68,7 +68,7 @@ export const appData = {
     {
       "id": "belts",
       "name": "Leather Belts",
-      "count": 28,
+      "count": 35,
       "description": "Premium leather belts and accessories",
       "image": "./assets/belts/OT-B001.png"
     }
@@ -195,6 +195,30 @@ export const appData = {
       "productStyle": "OT-008"
     },
     {
+      "id": "lap-009",
+      "name": "New Premium Laptop Bag 001",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
+      "image": "./assets/laptop-bags/NEW-001/img91.png",
+      "productStyle": "NEW-001"
+    },
+    {
+      "id": "lap-010",
+      "name": "New Premium Laptop Bag 002",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
+      "image": "./assets/laptop-bags/NEW-002/img92.png",
+      "productStyle": "NEW-002"
+    },
+    {
+      "id": "lap-011",
+      "name": "New Premium Laptop Bag 003",
+      "category": "leather-bags",
+      "subCategory": "laptop-bags",
+      "image": "./assets/laptop-bags/NEW-003/img93.png",
+      "productStyle": "NEW-003"
+    },
+    {
       "id": "bac-001",
       "name": "Classic Leather Backpack",
       "category": "leather-bags",
@@ -313,6 +337,14 @@ export const appData = {
       "productStyle": "OT-046"
     },
     {
+      "id": "tot-008",
+      "name": "New Premium Tote Bag 001",
+      "category": "leather-bags",
+      "subCategory": "tote-bag",
+      "image": "./assets/tote-bag/NEW-001/img94.png",
+      "productStyle": "NEW-001"
+    },
+    {
       "id": "duf-001",
       "name": "Executive Travel Duffle",
       "category": "leather-bags",
@@ -351,6 +383,22 @@ export const appData = {
       "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/OT-021/img186.png",
       "productStyle": "OT-021"
+    },
+    {
+      "id": "duf-006",
+      "name": "New Premium Duffle Bag 001",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
+      "image": "./assets/duffel-bag/NEW-001/img20.png",
+      "productStyle": "NEW-001"
+    },
+    {
+      "id": "duf-007",
+      "name": "New Premium Duffle Bag 002",
+      "category": "leather-bags",
+      "subCategory": "duffel-bag",
+      "image": "./assets/duffel-bag/NEW-002/img21.png",
+      "productStyle": "NEW-002"
     },
     {
       "id": "sli-001",
@@ -439,6 +487,14 @@ export const appData = {
       "subCategory": "sling-bag",
       "image": "./assets/sling-bag/OT-032/img240.png",
       "productStyle": "OT-032"
+    },
+    {
+      "id": "sli-012",
+      "name": "New Premium Sling Bag 001",
+      "category": "leather-bags",
+      "subCategory": "sling-bag",
+      "image": "./assets/sling-bag/NEW-001/img95.png",
+      "productStyle": "NEW-001"
     },
     {
       "id": "was-001",
@@ -684,6 +740,55 @@ export const appData = {
       "category": "belts",
       "image": "./assets/belts/NOT-B017.png",
       "productStyle": "NOT-B017"
+    },
+    {
+      "id": "bel-029",
+      "name": "New Premium Belt B001",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B001.png",
+      "productStyle": "NEW-B001"
+    },
+    {
+      "id": "bel-030",
+      "name": "New Premium Belt B002",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B002.png",
+      "productStyle": "NEW-B002"
+    },
+    {
+      "id": "bel-031",
+      "name": "New Premium Belt B003",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B003.png",
+      "productStyle": "NEW-B003"
+    },
+    {
+      "id": "bel-032",
+      "name": "New Premium Belt B004",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B004.png",
+      "productStyle": "NEW-B004"
+    },
+    {
+      "id": "bel-033",
+      "name": "New Premium Belt B005",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B005.png",
+      "productStyle": "NEW-B005"
+    },
+    {
+      "id": "bel-034",
+      "name": "New Premium Belt B006",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B006.png",
+      "productStyle": "NEW-B006"
+    },
+    {
+      "id": "bel-035",
+      "name": "New Premium Belt B007",
+      "category": "belts",
+      "image": "./assets/belts/NEW-B007.png",
+      "productStyle": "NEW-B007"
     }
   ]
 }
