@@ -1,4 +1,5 @@
 import React from 'react'
+import Gallery from './gallery'
 
 const About = () => {
   return (
@@ -23,6 +24,7 @@ const About = () => {
             </p>
           </div>
         </div>
+        <Gallery />
       </div>
     </section>
   )
