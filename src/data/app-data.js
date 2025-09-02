@@ -953,30 +953,24 @@ export const appData = {
     },
     {
       "id": 3,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.58.39 AM (4).jpeg",
-      "alt": "Manufacturing facility - Workshop area",
-      "caption": "Workshop Area"
-    },
-    {
-      "id": 4,
       "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.58.40 AM.jpeg",
       "alt": "Manufacturing facility - Craftsmanship in action",
       "caption": "Quality Control Process"
     },
     {
-      "id": 5,
+      "id": 4,
       "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.58.39 AM.jpeg",
       "alt": "Manufacturing facility - Leather processing",
       "caption": "Product Assembly"
     },
     {
-      "id": 6,
+      "id": 5,
       "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.59.54 AM (1).jpeg",
       "alt": "Manufacturing facility - Final inspection",
       "caption": "Final Inspection"
     },
     {
-      "id": 7,
+      "id": 6,
       "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 1.47.27 PM.jpeg",
       "alt": "Manufacturing facility - Product assembly",
       "caption": "Packaging Area"

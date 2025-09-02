@@ -460,7 +460,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 16px 24px;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -473,7 +473,7 @@ a:hover {
 }
 
 .site-navigation__brand-logo {
-  width: 60px;
+  width: 65px;
   height: auto;
   object-fit: contain;
 }
@@ -483,7 +483,7 @@ a:hover {
   font-optical-sizing: auto;
   font-weight: 750;
   font-style: normal;
-  font-size: 32px;
+  font-size: 34px;
   color: rgba(73, 37, 11, 1);
   margin: 0;
   letter-spacing: 1px;
@@ -492,7 +492,7 @@ a:hover {
 
 .site-navigation__brand-tagline {
   font-family: "Bitter", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 500;
   color: rgba(73, 37, 11, 0.75);
   margin: 0;
@@ -521,7 +521,7 @@ a:hover {
   color: rgb(66, 90, 129);
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   cursor: pointer;
   transition: color 0.2s ease;
@@ -631,7 +631,7 @@ a:hover {
   cursor: pointer;
   transition: background-color 0.2s ease;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   color: rgba(55, 65, 81, 1);
   position: relative;
 }
@@ -685,7 +685,7 @@ a:hover {
   cursor: pointer;
   transition: background-color 0.2s ease;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: rgba(55, 65, 81, 1);
 }
 
@@ -1013,14 +1013,14 @@ a:hover {
 .hero-section__company-title {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 42px;
   color: rgb(40 61 95);
   margin-bottom: 16px;
   line-height: 1.2;
 }
 
 .hero-section__company-description {
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(66 90 129 / 80%);
   margin-bottom: 32px;
   font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
@@ -1172,7 +1172,7 @@ a:hover {
 .services-section__title {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
   color: rgb(40 61 95);
   margin-bottom: 32px;
@@ -1196,7 +1196,7 @@ a:hover {
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  width: 350px;
+  width: 370px;
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(30, 64, 175, 0.2);
   text-align: center;
@@ -1249,7 +1249,7 @@ a:hover {
 }
 
 .services-section__card-title {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 600;
   color: #34457e;
   margin-bottom: 8px;
@@ -1257,7 +1257,7 @@ a:hover {
 
 .services-section__card-description {
   color: rgb(66 90 129);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
   margin: 0;
 }
@@ -1280,17 +1280,17 @@ a:hover {
 .products-section__header {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  margin-bottom: 32px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .products-section__title {
   text-align: center;
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 42px;
   color: rgb(40 61 95);
-  margin: 0;
+  margin-bottom: 15px;
   font-weight: 600;
 }
 
@@ -1488,7 +1488,7 @@ a:hover {
 
 .products-section__card-title {
   font-family: Open Sans, sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 600;
   color: #1e40af;
   margin-bottom: 4px;
@@ -1496,7 +1496,7 @@ a:hover {
 
 .products-section__card-style {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.3px;
   color: rgb(90, 87, 153);
@@ -1602,7 +1602,7 @@ a:hover {
   color: white;
   padding: 12px 16px;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   text-align: center;
   transform: translateY(100%);
@@ -1623,7 +1623,7 @@ a:hover {
   .products-section__all-category-name {
     transform: translateY(0);
     background: rgba(255, 255, 255, 0.1);
-    font-size: 7px;
+    font-size: 8px;
     font-weight: 400;
     padding: 0px 6px;
   }
@@ -1654,7 +1654,7 @@ a:hover {
 .about-section__title {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
   color: rgb(40 61 95);
   margin-bottom: 24px;
@@ -1667,7 +1667,7 @@ a:hover {
 }
 
 .about-section__paragraph {
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(66 90 129 / 80%);
   margin: 0;
   font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
@@ -1752,6 +1752,10 @@ a:hover {
   transform: scale(1.05);
 }
 
+.gallery-section__item {
+  cursor: pointer;
+}
+
 .gallery-section__caption {
   padding: 16px 20px;
   font-size: 1rem;
@@ -1760,6 +1764,221 @@ a:hover {
   text-align: center;
   margin: 0;
   background: #f8f9fa;
+}
+
+/* Gallery Modal Styles */
+.gallery-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-modal__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-modal__content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-modal__close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.gallery-modal__close:hover {
+  color: #ccc;
+}
+
+.gallery-modal__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  z-index: 10000;
+}
+
+.gallery-modal__nav:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.gallery-modal__nav--prev {
+  left: -60px;
+}
+
+.gallery-modal__nav--next {
+  right: -60px;
+}
+
+.gallery-modal__image-container {
+  width: 90vw;
+  height: 80vh;
+  max-width: 90vw;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.gallery-modal__image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-modal__info {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.gallery-modal__caption {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: white;
+}
+
+.gallery-modal__counter {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 0;
+}
+
+/* Gallery Modal Responsive Styles */
+@media (max-width: 768px) {
+  .gallery-modal__content {
+    max-width: 95vw;
+    max-height: 95vh;
+  }
+
+  .gallery-modal__image-container {
+    width: 95vw;
+    height: 70vh;
+    max-width: 95vw;
+    max-height: 70vh;
+  }
+
+  .gallery-modal__close {
+    top: -40px;
+    font-size: 1.5rem;
+  }
+
+  .gallery-modal__nav {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  .gallery-modal__nav--prev {
+    left: -30px;
+  }
+
+  .gallery-modal__nav--next {
+    right: -30px;
+  }
+
+  .gallery-modal__image-container {
+    width: 95vw;
+    height: 70vh;
+    max-width: 95vw;
+    max-height: 70vh;
+    padding: 15px;
+  }
+
+  .gallery-modal__caption {
+    font-size: 1rem;
+  }
+
+  .gallery-modal__counter {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-modal__nav {
+    font-size: 0.7rem;
+    width: 30px;
+    height: 30px;
+  }
+
+  .gallery-modal__nav--prev {
+    left: -35px;
+  }
+
+  .gallery-modal__nav--next {
+    right: -35px;
+  }
+
+  .gallery-modal__close {
+    display: none;
+    top: -30px;
+    right: -10px;
+    font-size: 1.2rem;
+  }
+
+  .gallery-modal__image-container {
+    width: 80vw;
+    height: fit-content;
+    max-width: 85vw;
+    max-height: 60vh;
+    padding: 5px;
+  }
+
+  .gallery-modal__info {
+    margin-top: 15px;
+  }
+
+  .gallery-modal__caption {
+    font-size: 0.9rem;
+  }
 }
 
 /* Gallery Responsive Styles */
@@ -2183,7 +2402,7 @@ a:hover {
   text-align: center;
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 42px;
   color: rgb(40 61 95);
   margin-bottom: 32px;
 }
@@ -2643,7 +2862,7 @@ a:hover {
   }
 
   .hero-section__company-title {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 8px;
     line-height: 1.1;
     font-weight: 700;
@@ -2744,7 +2963,7 @@ a:hover {
   }
 
   .services-section__title {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 24px;
   }
 
@@ -2823,7 +3042,7 @@ a:hover {
   }
 
   .products-section__title {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   .products-section__controls {
@@ -2984,7 +3203,7 @@ a:hover {
   }
 
   .about-section__title {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 10px;
   }
 
@@ -2994,7 +3213,7 @@ a:hover {
   }
 
   .about-section__paragraph {
-    font-size: 10px;
+    font-size: 11px;
     margin: 0;
     letter-spacing: 0.5px;
     word-spacing: 2px;
@@ -3035,13 +3254,13 @@ a:hover {
   .site-footer__section-title {
     color: rgba(55, 65, 81, 1);
     margin-bottom: 16px;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
   }
 
   .site-footer__section-subtitle {
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
   }
 
@@ -3580,13 +3799,13 @@ a:hover {
   }
 
   .site-navigation__brand-title {
-    font-size: 20px;
+    font-size: 22.5px;
     letter-spacing: -0.02em;
     line-height: 1.2;
   }
 
   .site-navigation__brand-tagline {
-    font-size: 8px;
+    font-size: 9px;
     margin: 0;
     text-align: center;
     letter-spacing: 0.05em;
@@ -3744,19 +3963,19 @@ a:hover {
   }
 
   .hero-section__company-title {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 8px;
     line-height: 1.1;
     font-weight: 700;
   }
 
   .hero-section__company-description {
-    font-size: 14px;
-    margin-bottom: 16px;
+    font-size: 15px;
     line-height: 1.3;
     letter-spacing: 0.5px;
     word-spacing: 2px;
     padding-left: 12px;
+    margin-bottom: 12px;
     margin-top: 12px;
   }
 
@@ -3833,13 +4052,13 @@ a:hover {
   }
 
   .services-section__title {
-    font-size: 28px;
+    font-size: 30px;
     margin-bottom: 26px;
   }
 
   .services-section__grid {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 24px;
@@ -3847,7 +4066,7 @@ a:hover {
 
   .services-section__card {
     border-radius: 10px;
-    width: 200px;
+    width: 220px;
     padding: 16px;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.7);
     font-size: 12px;
@@ -3876,7 +4095,7 @@ a:hover {
   }
 
   .services-section__card-title {
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 4px;
   }
 
@@ -3911,7 +4130,7 @@ a:hover {
   }
 
   .products-section__title {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .products-section__controls {
@@ -3939,8 +4158,8 @@ a:hover {
   }
 
   .products-section__grid {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 24px;
@@ -3990,13 +4209,13 @@ a:hover {
   }
 
   .products-section__card-title {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     margin-bottom: 4px;
   }
 
   .products-section__card-style {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 500;
     color: rgba(107, 114, 128, 1);
     margin-bottom: 8px;
@@ -4006,7 +4225,7 @@ a:hover {
   .products-section__card-description {
     color: rgba(107, 114, 128, 1);
     margin-bottom: 16px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5;
   }
 
@@ -4072,7 +4291,7 @@ a:hover {
   }
 
   .about-section__title {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
 
@@ -4082,7 +4301,7 @@ a:hover {
   }
 
   .about-section__paragraph {
-    font-size: 10px;
+    font-size: 13px;
     margin: 0;
     letter-spacing: 0.5px;
     word-spacing: 2px;
@@ -4123,7 +4342,7 @@ a:hover {
   .site-footer__section-title {
     color: rgba(55, 65, 81, 1);
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
   }
 
@@ -4407,7 +4626,7 @@ a:hover {
   }
 
   .contact-section__title {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 12px;
   }
 
@@ -4421,9 +4640,10 @@ a:hover {
   }
 
   .contact-section__subtitle {
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 25px;
     margin-bottom: 18px;
+    text-align: center;
   }
 
   .contact-section__details {
