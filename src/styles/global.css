@@ -2053,14 +2053,15 @@ a:hover {
   }
 
   .gallery-section__title {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
 
   .gallery-section__subtitle {
-    font-size: 8px;
+    font-size: 10px;
     margin-bottom: 28px;
-    padding: 0 12px;
+    padding: 0 8px;
+    max-width: 85%;
   }
 
   .gallery-section__grid {
@@ -3885,18 +3886,18 @@ a:hover {
   }
 
   .hero-carousel__title {
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
 
   .hero-carousel__subtitle {
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 3px;
     line-height: 1.1;
   }
 
   .hero-carousel__description {
-    font-size: 9px;
+    font-size: 10px;
     margin-bottom: 8px;
     width: 95%;
   }
@@ -4027,13 +4028,13 @@ a:hover {
 
   .hero-section__stat-number {
     display: block;
-    font-size: 10px;
+    font-size: 11px;
     color: #1e40af;
     margin-bottom: 2px;
   }
 
   .hero-section__stat-label {
-    font-size: 9px;
+    font-size: 10px;
   }
 
   /* ==========================================
@@ -4066,7 +4067,7 @@ a:hover {
 
   .services-section__card {
     border-radius: 10px;
-    width: 220px;
+    width: 275px;
     padding: 16px;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.7);
     font-size: 12px;
@@ -4078,16 +4079,16 @@ a:hover {
   }
 
   .services-section__card-icon img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
   }
 
   /* Make first three icons bigger */
   .services-section__card:nth-child(1) .services-section__card-icon img,
   .services-section__card:nth-child(2) .services-section__card-icon img,
   .services-section__card:nth-child(3) .services-section__card-icon img {
-    width: 30px;
-    height: 30px;
+    width: 38px;
+    height: 38px;
   }
 
   .services-section__card-content {
@@ -4095,12 +4096,12 @@ a:hover {
   }
 
   .services-section__card-title {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 4px;
   }
 
   .services-section__card-description {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 1.6;
     margin: 0;
   }
@@ -4640,7 +4641,7 @@ a:hover {
   }
 
   .contact-section__subtitle {
-    font-size: 18px;
+    font-size: 19px;
     margin-top: 25px;
     margin-bottom: 18px;
     text-align: center;
@@ -4658,15 +4659,15 @@ a:hover {
 
   .contact-section__detail-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 3px;
-    width: 230px;
-    padding: 5px 0px;
+    width: 270px;
+    padding: 10px 5px;
     border-radius: 10px;
   }
 
   .contact-section__detail-icon {
-    font-size: 14px;
+    font-size: 15px;
     flex-shrink: 0;
     margin-top: 0px;
   }
