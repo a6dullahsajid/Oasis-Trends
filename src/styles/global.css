@@ -1763,7 +1763,7 @@ a:hover {
 }
 
 /* Gallery Responsive Styles */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .gallery-section {
     margin-top: 40px;
     padding: 0 16px;
@@ -1787,24 +1787,45 @@ a:hover {
 
   .gallery-section__image-container {
     height: 200px;
-  }
-
-  .gallery-section__caption {
-    padding: 12px 16px;
-    font-size: 0.9rem;
-  }
-}
-
-@media (min-width: 577px) and (max-width: 767px) {
-  .gallery-section__grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .gallery-section__image-container {
-    height: 220px;
-  }
-}
+    }
+    
+    .gallery-section__caption {
+      padding: 12px 16px;
+      font-size: 0.9rem;
+      }
+      } */
+      
+      @media (max-width: 390px) {
+        .gallery-section {
+          margin-top: 28px;
+          padding: 0 8px;
+        }
+      
+        .gallery-section__title {
+          font-size: 18px;
+          margin-bottom: 8px;
+        }
+      
+        .gallery-section__subtitle {
+          font-size: 8px;
+          margin-bottom: 24px;
+          padding: 0 4px;
+        }
+      
+        .gallery-section__grid {
+          grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+          gap: 10px;
+        }
+      
+        .gallery-section__image-container {
+          height: 120px;
+        }
+      
+        .gallery-section__caption {
+          padding: 4px 6px;
+          font-size: 8px;
+        }
+      }
 
 @media (min-width: 390px) and (max-width: 576px) {
   .gallery-section {
@@ -1824,7 +1845,7 @@ a:hover {
   }
 
   .gallery-section__grid {
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 12px;
   }
 
@@ -1838,35 +1859,14 @@ a:hover {
   }
 }
 
-@media (max-width: 389px) {
-  .gallery-section {
-    margin-top: 28px;
-    padding: 0 8px;
-  }
-
-  .gallery-section__title {
-    font-size: 18px;
-    margin-bottom: 8px;
-  }
-
-  .gallery-section__subtitle {
-    font-size: 8px;
-    margin-bottom: 24px;
-    padding: 0 4px;
-  }
-
+@media (min-width: 577px) and (max-width: 767px) {
   .gallery-section__grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .gallery-section__image-container {
-    height: 120px;
-  }
-
-  .gallery-section__caption {
-    padding: 4px 6px;
-    font-size: 8px;
+    height: 220px;
   }
 }
 
@@ -2341,7 +2341,7 @@ a:hover {
 
 
 
-@media (max-width:389px) {
+@media (max-width:390px) {
 
   /* All products mobile layout */
   .products-section__all-products {
