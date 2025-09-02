@@ -1,6 +1,6 @@
-# Premium Leather Craft - Gatsby Website
+# Oasis Trends - Gatsby Website
 
-A modern, responsive website for Premium Leather Craft, built with Gatsby and featuring improved class naming for better responsiveness editing.
+A modern, responsive website for Oasis Trends, built with Gatsby and featuring improved class naming for better responsiveness editing.
 
 ## Features
 
