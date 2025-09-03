@@ -31,10 +31,10 @@ const Gallery = () => {
   return (
     <div className="gallery-section">
       <h3 className="gallery-section__title">Our Manufacturing Facility</h3>
-      <p className="gallery-section__subtitle">
+      {/* <p className="gallery-section__subtitle">
         Take a behind-the-scenes look at our state-of-the-art manufacturing facility where 
         premium leather products are crafted with precision and care.
-      </p>
+      </p> */}
       <div className="gallery-section__grid">
         {galleryImages.map((image, index) => (
           <div key={image.id} className="gallery-section__item" onClick={() => openModal(index)}>
@@ -46,7 +46,7 @@ const Gallery = () => {
                 loading="lazy"
               />
             </div>
-            <p className="gallery-section__caption">{image.caption}</p>
+            {/* <p className="gallery-section__caption">{image.caption}</p> */}
           </div>
         ))}
       </div>

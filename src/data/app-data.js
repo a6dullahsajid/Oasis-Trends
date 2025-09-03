@@ -941,37 +941,37 @@ export const appData = {
   "gallery": [
     {
       "id": 1,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.59.54 AM.jpeg",
+      "src": "./assets/gallery/gallery1.jpeg",
       "alt": "Manufacturing facility - Quality control process",
       "caption": "Production Line"
     },
     {
       "id": 2,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 1.57.38 PM.jpeg",
+      "src": "./assets/gallery/gallery2.jpeg",
       "alt": "Manufacturing facility - Production line",
       "caption": "Craftsmanship in Action"
     },
     {
       "id": 3,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.58.40 AM.jpeg",
+      "src": "./assets/gallery/gallery3.jpeg",
       "alt": "Manufacturing facility - Craftsmanship in action",
       "caption": "Quality Control Process"
     },
     {
       "id": 4,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.58.39 AM.jpeg",
+      "src": "./assets/gallery/gallery4.jpeg",
       "alt": "Manufacturing facility - Leather processing",
       "caption": "Product Assembly"
     },
     {
       "id": 5,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 11.59.54 AM (1).jpeg",
+      "src": "./assets/gallery/gallery5.jpeg",
       "alt": "Manufacturing facility - Final inspection",
       "caption": "Final Inspection"
     },
     {
       "id": 6,
-      "src": "./assets/gallery/WhatsApp Image 2025-08-30 at 1.47.27 PM.jpeg",
+      "src": "./assets/gallery/gallery6.jpeg",
       "alt": "Manufacturing facility - Product assembly",
       "caption": "Packaging Area"
     }

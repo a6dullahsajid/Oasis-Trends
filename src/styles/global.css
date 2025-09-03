@@ -1554,7 +1554,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 180px);
-  gap: 15px;
+  gap: 8px;
   padding: 40px;
   width: 100%;
   margin: 0 auto;
@@ -1590,7 +1590,7 @@ a:hover {
   position: relative;
   cursor: pointer;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 .products-section__all-category-name {
@@ -1598,7 +1598,7 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 12px 16px;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -1622,7 +1622,7 @@ a:hover {
 @media (max-width: 768px) {
   .products-section__all-category-name {
     transform: translateY(0);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.6);
     font-size: 8px;
     font-weight: 400;
     padding: 0px 6px;
@@ -1691,7 +1691,7 @@ a:hover {
   font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
   color: #203F60;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   line-height: 1.2;
 }
 
@@ -1715,8 +1715,8 @@ a:hover {
 }
 
 .gallery-section__item {
-  background: white;
-  border-radius: 12px;
+  /* background: white; */
+  border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1731,6 +1731,9 @@ a:hover {
   position: relative;
   width: 100%;
   height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -2022,7 +2025,7 @@ a:hover {
       
         .gallery-section__title {
           font-size: 18px;
-          margin-bottom: 8px;
+          margin-bottom: 16px;
         }
       
         .gallery-section__subtitle {
@@ -2054,7 +2057,7 @@ a:hover {
 
   .gallery-section__title {
     font-size: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
 
   .gallery-section__subtitle {
@@ -2566,7 +2569,7 @@ a:hover {
   /* All products mobile layout */
   .products-section__all-products {
     grid-template-rows: repeat(4, 60px);
-    gap: 8px;
+    gap: 4px;
     padding: 10px;
   }
 
@@ -3667,7 +3670,7 @@ a:hover {
 @media (min-width:390px) and (max-width: 576px) {
   .products-section__all-products {
     grid-template-rows: repeat(4, 65px);
-    gap: 8px;
+    gap: 5px;
     padding: 10px;
   }
 
@@ -4286,7 +4289,7 @@ a:hover {
   }
 
   .about-section__content {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
   }
