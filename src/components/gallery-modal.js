@@ -52,9 +52,9 @@ const GalleryModal = ({ isOpen, onClose, image, images, currentIndex, onNext, on
             />
           </div>
 
-                     <div className="gallery-modal__info">
+                     {/* <div className="gallery-modal__info">
              <h3 className="gallery-modal__caption">{image.caption}</h3>
-           </div>
+           </div> */}
         </div>
       </div>
     </div>
