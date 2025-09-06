@@ -2866,8 +2866,8 @@ a:hover {
   }
 
   .hero-carousel__dot {
+    height: 10px;
     width: 5px;
-    height: 5px;
   }
 
   .hero-carousel__dot:hover {
@@ -3954,7 +3954,7 @@ a:hover {
 
   .hero-carousel__dot {
     width: 5px;
-    height: 5px;
+    height: 10px;
   }
 
   .hero-carousel__dot:hover {
@@ -5036,7 +5036,7 @@ a:hover {
 
   .hero-carousel__dot {
     width: 5px;
-    height: 5px;
+    height: 10px;
   }
 
   .hero-carousel__dot:hover {

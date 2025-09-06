@@ -210,7 +210,7 @@ export const appData = {
     },
     {
       "id": "lap-009",
-      "name": "New Premium Laptop Bag 001",
+      "name": "Elite Executive Laptop Portfolio",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/NEW-001/img91.png",
@@ -218,7 +218,7 @@ export const appData = {
     },
     {
       "id": "lap-010",
-      "name": "New Premium Laptop Bag 002",
+      "name": "Professional Laptop Briefcase",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/NEW-002/img92.png",
@@ -226,7 +226,7 @@ export const appData = {
     },
     {
       "id": "lap-011",
-      "name": "New Premium Laptop Bag 003",
+      "name": "Contemporary Laptop Messenger",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/NEW-003/img93.png",
@@ -234,7 +234,7 @@ export const appData = {
     },
     {
       "id": "lap-012",
-      "name": "New Premium Laptop Bag 004",
+      "name": "Luxury Laptop Satchel",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
       "image": "./assets/laptop-bags/NEW-004/img43.png",
@@ -360,7 +360,7 @@ export const appData = {
     },
     {
       "id": "tot-008",
-      "name": "New Premium Tote Bag 001",
+      "name": "Premium Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
       "image": "./assets/tote-bag/NEW-001/img94.png",
@@ -408,7 +408,7 @@ export const appData = {
     },
     {
       "id": "duf-006",
-      "name": "New Premium Duffle Bag 001",
+      "name": "Elite Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/NEW-001/img20.png",
@@ -416,7 +416,7 @@ export const appData = {
     },
     {
       "id": "duf-007",
-      "name": "New Premium Duffle Bag 002",
+      "name": "Modern Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/NEW-002/img21.png",
@@ -424,7 +424,7 @@ export const appData = {
     },
     {
       "id": "duf-008",
-      "name": "New Premium Duffle Bag 003",
+      "name": "Luxury Weekend Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/NEW-003/img40.png",
@@ -432,7 +432,7 @@ export const appData = {
     },
     {
       "id": "duf-009",
-      "name": "New Premium Duffle Bag 004",
+      "name": "Modern Adventure Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/NEW-004/img41.png",
@@ -440,7 +440,7 @@ export const appData = {
     },
     {
       "id": "duf-010",
-      "name": "New Premium Duffle Bag 005",
+      "name": "Premium Sports Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
       "image": "./assets/duffel-bag/NEW-005/img42.png",
@@ -536,7 +536,7 @@ export const appData = {
     },
     {
       "id": "sli-012",
-      "name": "New Premium Sling Bag 001",
+      "name": "Urban Crossbody Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
       "image": "./assets/sling-bag/NEW-001/img95.png",
@@ -544,7 +544,7 @@ export const appData = {
     },
     {
       "id": "sli-013",
-      "name": "New Premium Sling Bag 002",
+      "name": "Modern Messenger Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
       "image": "./assets/sling-bag/NEW-002/img44.png",
@@ -552,7 +552,7 @@ export const appData = {
     },
     {
       "id": "sli-014",
-      "name": "New Premium Sling Bag 003",
+      "name": "Luxury Fashion Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
       "image": "./assets/sling-bag/NEW-003/img45.png",
@@ -560,7 +560,7 @@ export const appData = {
     },
     {
       "id": "sli-015",
-      "name": "New Premium Sling Bag 004",
+      "name": "Elite Travel Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
       "image": "./assets/sling-bag/NEW-004/img46.png",
@@ -890,52 +890,45 @@ export const appData = {
     },
     {
       "id": "bel-029",
-      "name": "New Premium Belt B001",
+      "name": "Elite Executive Belt",
       "category": "belts",
       "image": "./assets/belts/NEW-B001.png",
       "productStyle": "NEW-B001"
     },
     {
       "id": "bel-030",
-      "name": "New Premium Belt B002",
+      "name": "Modern Professional Belt",
       "category": "belts",
       "image": "./assets/belts/NEW-B002.png",
       "productStyle": "NEW-B002"
     },
     {
       "id": "bel-031",
-      "name": "New Premium Belt B003",
+      "name": "Contemporary Style Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B003.png",
+      "image": "./assets/belts/NEW-B004.png",
       "productStyle": "NEW-B003"
     },
     {
       "id": "bel-032",
-      "name": "New Premium Belt B004",
+      "name": "Sleek Urban Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B004.png",
+      "image": "./assets/belts/NEW-B005.png",
       "productStyle": "NEW-B004"
     },
     {
       "id": "bel-033",
-      "name": "New Premium Belt B005",
+      "name": "Premium Classic Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B005.png",
+      "image": "./assets/belts/NEW-B006.png",
       "productStyle": "NEW-B005"
     },
     {
       "id": "bel-034",
-      "name": "New Premium Belt B006",
-      "category": "belts",
-      "image": "./assets/belts/NEW-B006.png",
-      "productStyle": "NEW-B006"
-    },
-    {
-      "id": "bel-035",
-      "name": "New Premium Belt B007",
+      "name": "Elegant Fashion Belt",
       "category": "belts",
       "image": "./assets/belts/NEW-B007.png",
-      "productStyle": "NEW-B007"
+      "productStyle": "NEW-B006"
     }
   ],
   "gallery": [
