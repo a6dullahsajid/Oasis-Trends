@@ -28,22 +28,22 @@ const Products = ({
 
   // Listen for category selection events from header dropdown
   useEffect(() => {
-    const handleCategorySelect = (event) => {
+    const handleCategorySelectEvent = (event) => {
       const { categoryId } = event.detail
       console.log('Products component received category selection:', categoryId)
 
-      // Trigger the category filter change
-      if (categoryId && onFilterChange) {
-        onFilterChange(categoryId)
+      // Use the new handleCategorySelect function
+      if (categoryId) {
+        handleCategorySelect(categoryId)
       }
     }
 
     // Add event listener
-    window.addEventListener('selectCategory', handleCategorySelect)
+    window.addEventListener('selectCategory', handleCategorySelectEvent)
 
     // Cleanup event listener on component unmount
     return () => {
-      window.removeEventListener('selectCategory', handleCategorySelect)
+      window.removeEventListener('selectCategory', handleCategorySelectEvent)
     }
   }, [onFilterChange])
 
@@ -63,6 +63,30 @@ const Products = ({
       console.log('Is bag category:', isBagCategory)
       setShowBagSubControls(isBagCategory)
     }
+  }
+
+  // Handle category selection from header dropdown
+  const handleCategorySelect = (categoryId) => {
+    console.log('Category selected from header:', categoryId)
+    
+    // Check if this is a bag sub-category
+    const isBagSubCategory = bagSubCategories.some(bagCat => bagCat.subId === categoryId)
+    
+    if (isBagSubCategory) {
+      // If it's a bag sub-category, show sub-controls
+      console.log('Bag sub-category selected, showing sub-controls')
+      setShowBagSubControls(true)
+    } else if (categoryId === 'leather-bags') {
+      // If it's the main leather-bags category, show sub-controls
+      console.log('Leather bags category selected, showing sub-controls')
+      setShowBagSubControls(true)
+    } else {
+      // For all other categories, hide sub-controls
+      console.log('Non-bag category selected, hiding sub-controls')
+      setShowBagSubControls(false)
+    }
+    
+    onFilterChange(categoryId)
   }
 
   // Auto-show sub-controls when viewing bag categories
