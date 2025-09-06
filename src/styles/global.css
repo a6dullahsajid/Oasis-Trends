@@ -3613,8 +3613,6 @@ a:hover {
     border-radius: 12px;
     padding: 10px 15px;
     width: 95%;
-    border: 1px solid rgba(213, 222, 241, 1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
   }
 
   .contact-section__form {
@@ -3653,16 +3651,13 @@ a:hover {
   }
 
   .contact-section__submit-btn {
-    background: linear-gradient(135deg, #203F60 0%, #1a2f4a 100%);
     color: white;
-    border: 1.5px solid #203F60;
     padding: 14px 28px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
   }
 
   .contact-section__submit-btn:hover {
@@ -4704,8 +4699,6 @@ a:hover {
     border-radius: 12px;
     padding: 10px 15px;
     width: 95%;
-    border: 1px solid rgba(213, 222, 241, 1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
   }
 
   .contact-section__form {
@@ -4744,16 +4737,13 @@ a:hover {
   }
 
   .contact-section__submit-btn {
-    background: linear-gradient(135deg, #203F60 0%, #1a2f4a 100%);
     color: white;
-    border: 1.5px solid #203F60;
     padding: 14px 28px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
   }
 
   .contact-section__submit-btn:hover {
@@ -5790,8 +5780,6 @@ a:hover {
     border-radius: 12px;
     padding: 10px 15px;
     width: 95%;
-    border: 1px solid rgba(213, 222, 241, 1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
   }
 
   .contact-section__form {
@@ -5830,21 +5818,13 @@ a:hover {
   }
 
   .contact-section__submit-btn {
-    background: linear-gradient(135deg, #203F60 0%, #1a2f4a 100%);
     color: white;
-    border: 1.5px solid #203F60;
     padding: 14px 28px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.5);
-  }
-
-  .contact-section__submit-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   }
 
   .contact-section__map {
