@@ -213,32 +213,32 @@ export const appData = {
       "name": "Elite Executive Laptop Portfolio",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/NEW-001/img91.png",
-      "productStyle": "NEW-001"
+      "image": "./assets/laptop-bags/OT-047/img91.png",
+      "productStyle": "OT-047"
     },
     {
       "id": "lap-010",
       "name": "Professional Laptop Briefcase",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/NEW-002/img92.png",
-      "productStyle": "NEW-002"
+      "image": "./assets/laptop-bags/OT-048/img92.png",
+      "productStyle": "OT-048"
     },
     {
       "id": "lap-011",
       "name": "Contemporary Laptop Messenger",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/NEW-003/img93.png",
-      "productStyle": "NEW-003"
+      "image": "./assets/laptop-bags/OT-049/img93.png",
+      "productStyle": "OT-049"
     },
     {
       "id": "lap-012",
       "name": "Luxury Laptop Satchel",
       "category": "leather-bags",
       "subCategory": "laptop-bags",
-      "image": "./assets/laptop-bags/NEW-004/img43.png",
-      "productStyle": "NEW-004"
+      "image": "./assets/laptop-bags/OT-050/img43.png",
+      "productStyle": "OT-050"
     },
     {
       "id": "bac-001",
@@ -363,8 +363,8 @@ export const appData = {
       "name": "Premium Tote Bag",
       "category": "leather-bags",
       "subCategory": "tote-bag",
-      "image": "./assets/tote-bag/NEW-001/img94.png",
-      "productStyle": "NEW-001"
+      "image": "./assets/tote-bag/OT-060/img94.png",
+      "productStyle": "OT-060"
     },
     {
       "id": "duf-001",
@@ -411,40 +411,40 @@ export const appData = {
       "name": "Elite Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/NEW-001/img20.png",
-      "productStyle": "NEW-001"
+      "image": "./assets/duffel-bag/OT-051/img20.png",
+      "productStyle": "OT-051"
     },
     {
       "id": "duf-007",
       "name": "Modern Travel Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/NEW-002/img21.png",
-      "productStyle": "NEW-002"
+      "image": "./assets/duffel-bag/OT-052/img21.png",
+      "productStyle": "OT-052"
     },
     {
       "id": "duf-008",
       "name": "Luxury Weekend Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/NEW-003/img40.png",
-      "productStyle": "NEW-003"
+      "image": "./assets/duffel-bag/OT-053/img40.png",
+      "productStyle": "OT-053"
     },
     {
       "id": "duf-009",
       "name": "Modern Adventure Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/NEW-004/img41.png",
-      "productStyle": "NEW-004"
+      "image": "./assets/duffel-bag/OT-054/img41.png",
+      "productStyle": "OT-054"
     },
     {
       "id": "duf-010",
       "name": "Premium Sports Duffle",
       "category": "leather-bags",
       "subCategory": "duffel-bag",
-      "image": "./assets/duffel-bag/NEW-005/img42.png",
-      "productStyle": "NEW-005"
+      "image": "./assets/duffel-bag/OT-055/img42.png",
+      "productStyle": "OT-055"
     },
     {
       "id": "sli-001",
@@ -539,32 +539,32 @@ export const appData = {
       "name": "Urban Crossbody Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/NEW-001/img95.png",
-      "productStyle": "NEW-001"
+      "image": "./assets/sling-bag/OT-056/img95.png",
+      "productStyle": "OT-056"
     },
     {
       "id": "sli-013",
       "name": "Modern Messenger Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/NEW-002/img44.png",
-      "productStyle": "NEW-002"
+      "image": "./assets/sling-bag/OT-057/img44.png",
+      "productStyle": "OT-057"
     },
     {
       "id": "sli-014",
       "name": "Luxury Fashion Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/NEW-003/img45.png",
-      "productStyle": "NEW-003"
+      "image": "./assets/sling-bag/OT-058/img45.png",
+      "productStyle": "OT-058"
     },
     {
       "id": "sli-015",
       "name": "Elite Travel Sling",
       "category": "leather-bags",
       "subCategory": "sling-bag",
-      "image": "./assets/sling-bag/NEW-004/img46.png",
-      "productStyle": "NEW-004"
+      "image": "./assets/sling-bag/OT-059/img46.png",
+      "productStyle": "OT-059"
     },
     {
       "id": "was-001",
@@ -836,99 +836,99 @@ export const appData = {
       "id": "bel-021",
       "name": "Brown Cross Pattern Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B001.png",
-      "productStyle": "NOT-B001"
+      "image": "./assets/belts/OT-B049.png",
+      "productStyle": "OT-B049"
     },
     {
       "id": "bel-022",
       "name": "Premium Brown Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B011.png",
-      "productStyle": "NOT-B011"
+      "image": "./assets/belts/OT-B050.png",
+      "productStyle": "OT-B050"
     },
     {
       "id": "bel-023",
       "name": "Washed Tan Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B015.png",
-      "productStyle": "NOT-B015"
+      "image": "./assets/belts/OT-B051.png",
+      "productStyle": "OT-B051"
     },
     {
       "id": "bel-024",
       "name": "Vintage Black Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B021.png",
-      "productStyle": "NOT-B021"
+      "image": "./assets/belts/OT-B052.png",
+      "productStyle": "OT-B052"
     },
     {
       "id": "bel-025",
       "name": "Executive Criss Cross Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B027.png",
-      "productStyle": "NOT-B027"
+      "image": "./assets/belts/OT-B053.png",
+      "productStyle": "OT-B053"
     },
     {
       "id": "bel-026",
       "name": "Stylish Red Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B030.png",
-      "productStyle": "NOT-B030"
+      "image": "./assets/belts/OT-B054.png",
+      "productStyle": "OT-B054"
     },
     {
       "id": "bel-027",
       "name": "Classic Brown Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B031.png",
-      "productStyle": "NOT-B031"
+      "image": "./assets/belts/OT-B055.png",
+      "productStyle": "OT-B055"
     },
     {
       "id": "bel-028",
       "name": "Special Edition Belt",
       "category": "belts",
-      "image": "./assets/belts/NOT-B017.png",
-      "productStyle": "NOT-B017"
+      "image": "./assets/belts/OT-B056.png",
+      "productStyle": "OT-B056"
     },
     {
       "id": "bel-029",
       "name": "Elite Executive Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B001.png",
-      "productStyle": "NEW-B001"
+      "image": "./assets/belts/OT-B057.png",
+      "productStyle": "OT-B057"
     },
     {
       "id": "bel-030",
       "name": "Modern Professional Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B002.png",
-      "productStyle": "NEW-B002"
+      "image": "./assets/belts/OT-B058.png",
+      "productStyle": "OT-B058"
     },
     {
       "id": "bel-031",
       "name": "Contemporary Style Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B004.png",
-      "productStyle": "NEW-B003"
+      "image": "./assets/belts/OT-B059.png",
+      "productStyle": "OT-B059"
     },
     {
       "id": "bel-032",
       "name": "Sleek Urban Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B005.png",
-      "productStyle": "NEW-B004"
+      "image": "./assets/belts/OT-B060.png",
+      "productStyle": "OT-B060"
     },
     {
       "id": "bel-033",
       "name": "Premium Classic Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B006.png",
-      "productStyle": "NEW-B005"
+      "image": "./assets/belts/OT-B061.png",
+      "productStyle": "OT-B061"
     },
     {
       "id": "bel-034",
       "name": "Elegant Fashion Belt",
       "category": "belts",
-      "image": "./assets/belts/NEW-B007.png",
-      "productStyle": "NEW-B006"
+      "image": "./assets/belts/OT-B062.png",
+      "productStyle": "OT-B062"
     }
   ],
   "gallery": [
@@ -970,4 +970,6 @@ export const appData = {
     }
   ]
 }
+
+
 
