@@ -3927,13 +3927,15 @@ a:hover {
     width: 100%;
     align-items: center;
   }
-
+  
   .product-modal__content {
     position: relative;
     max-width: 450px;
     width: 70vw;
     max-height: 65vh;
     margin: 13px;
+    border: 0px;
+    box-shadow: 0px 0px 0px 0px;
   }
 
   .product-modal__close {
@@ -5143,6 +5145,8 @@ a:hover {
     width: 95vw;
     max-height: 65vh;
     margin: 13px;
+    border: 0px;
+    box-shadow: 0px 0px 20px rgb(0, 21, 88,0.7);
   }
 
   .product-modal__close {
@@ -5224,7 +5228,9 @@ a:hover {
     width: 15px;
     height: 15px;
   }
+
 }
+
 
 @media (min-width: 577px) and (max-width: 767px) {
 
