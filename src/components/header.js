@@ -144,7 +144,7 @@ const Header = () => {
   // Non-bag categories
   const otherCategories = [
     { id: 'finished-leather', name: 'Finished Leather' },
-            { id: 'leather-accessories', name: 'Leather Accessories' },
+    { id: 'leather-accessories', name: 'Leather Accessories' },
     { id: 'belts', name: 'Leather Belts' }
   ]
 
@@ -152,7 +152,8 @@ const Header = () => {
     <header className="site-header">
       <nav className="site-navigation">
         <div className="site-navigation__container">
-          <div className="site-navigation__brand">
+          <div className="site-navigation__brand"
+            onClick={() => scrollToSection('home')}>
             <img src="./assets/oasis-trends-logo.png" alt="Oasis Trends Logo" className="site-navigation__brand-logo" />
             <div className="site-navigation__brand-text">
               <h1 className="site-navigation__brand-title">OASIS TRENDS</h1>
@@ -187,10 +188,10 @@ const Header = () => {
                 }}
               >
                 Our Products
-                <img 
-                  src="./assets/icons/down.svg" 
-                  alt="Dropdown" 
-                  className={`site-navigation__dropdown-arrow ${isProductsDropdownOpen ? 'site-navigation__dropdown-arrow--open' : ''}`} 
+                <img
+                  src="./assets/icons/down.svg"
+                  alt="Dropdown"
+                  className={`site-navigation__dropdown-arrow ${isProductsDropdownOpen ? 'site-navigation__dropdown-arrow--open' : ''}`}
                 />
               </button>
               {isProductsDropdownOpen && (
