@@ -1,100 +1,94 @@
 import React, { useEffect } from 'react'
-import PropTypes from 'prop-types'
-const ProductModal = ({ product, isOpen, onClose }) => {
+
+const ProductModal = ({ isOpen, onClose, product, products, currentIndex, onNext, onPrev }) => {
   useEffect(() => {
-    const handleEscape = (e) => {
-      if (e.key === 'Escape') {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
         onClose()
+      } else if (event.key === 'ArrowRight') {
+        onNext()
+      } else if (event.key === 'ArrowLeft') {
+        onPrev()
       }
     }
 
     if (isOpen) {
-      document.addEventListener('keydown', handleEscape)
+      document.addEventListener('keydown', handleKeyDown)
       document.body.style.overflow = 'hidden'
     }
 
     return () => {
-      document.removeEventListener('keydown', handleEscape)
-      document.body.style.overflow = 'auto'
+      document.removeEventListener('keydown', handleKeyDown)
+      document.body.style.overflow = 'unset'
     }
-  }, [isOpen, onClose])
+  }, [isOpen, onClose, onNext, onPrev])
 
   if (!isOpen || !product) return null
 
   return (
-    <div className="product-modal">
-      <div className="product-modal__overlay" onClick={onClose}></div>
-      <div className="product-modal__content">
-        <button 
-          className="product-modal__close-button"
-          onClick={onClose}
-          aria-label="Close modal"
-        >
-          &times;
-        </button>
-        
-        <div className="product-modal__body">
-          <img 
-            src={product.image} 
-            alt={product.name} 
-            className="product-modal__product-image"
-          />
-          <h2 className="product-modal__product-title">{product.name}</h2>
-          <p className="product-modal__product-description">
-            {product.description}
-          </p>
-          
-          <div className="product-modal__product-details">
-            <div className="product-modal__detail-item">
-              <span className="product-modal__detail-label">Product Code:</span>
-              <span className="product-modal__detail-value">{product.productCode}</span>
+    <div className="product-modal" onClick={onClose}>
+      <div className="product-modal__overlay">
+        <div className="product-modal__container">
+          <button 
+            className="product-modal__nav product-modal__nav--prev" 
+            onClick={(e) => {
+              e.stopPropagation();
+              onPrev();
+            }}
+          >
+            <span>&#8249;</span>
+          </button>
+          <div className="product-modal__content" onClick={(e) => e.stopPropagation()}>
+            <button className="product-modal__close" onClick={onClose}>
+              <span>&times;</span>
+            </button>
+            <div className="product-modal__image-container">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="product-modal__image"
+              />
             </div>
-            <div className="product-modal__detail-item">
-              <span className="product-modal__detail-label">Material:</span>
-              <span className="product-modal__detail-value">{product.material}</span>
-            </div>
-            <div className="product-modal__detail-item">
-              <span className="product-modal__detail-label">Available Colors:</span>
-              <span className="product-modal__detail-value">
-                {product.colors.join(', ')}
-              </span>
-            </div>
-            <div className="product-modal__detail-item">
-              <span className="product-modal__detail-label">Dimensions:</span>
-              <span className="product-modal__detail-value">{product.dimensions}</span>
-            </div>
-            <div className="product-modal__detail-item">
-              <span className="product-modal__detail-label">Weight:</span>
-              <span className="product-modal__detail-value">{product.weight}</span>
-            </div>
-            <div className="product-modal__detail-item">
-              <span className="product-modal__detail-label">Features:</span>
-              <span className="product-modal__detail-value">
-                {product.features.join(', ')}
-              </span>
+
+            <div className="product-modal__info">
+              <div className="product-modal__details">
+                <h3 className="product-modal__title">{product.name}</h3>
+                <p className="product-modal__style">Style No: {product.productStyle}</p>
+                <p className="product-modal__category">
+                  {product.subCategory ? product.subCategory.replace('-', ' ').toUpperCase() : product.category.replace('-', ' ').toUpperCase()}
+                </p>
+              </div>
+              <div className="product-modal__actions">
+                <a
+                  href={`https://wa.me/916394938670?text=Hi Nabeel!\nI'm interested in ${product.name} (Style: ${product.productStyle}). Can you please provide more details and pricing?`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="product-modal__whatsapp-btn"
+                >
+                  Get Quote
+                  {/* <img
+                    src="./assets/WhatsApp_logo.png"
+                    alt="WhatsApp"
+                    className="product-modal__whatsapp-icon"
+                  /> */}
+                </a>
+              </div>
             </div>
           </div>
+
+          <button 
+            className="product-modal__nav product-modal__nav--next" 
+            onClick={(e) => {
+              e.stopPropagation();
+              onNext();
+            }}
+          >
+            <span>&#8250;</span>
+          </button>
         </div>
       </div>
     </div>
   )
-}
-
-ProductModal.propTypes = {
-  product: PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    productCode: PropTypes.string.isRequired,
-    material: PropTypes.string.isRequired,
-    colors: PropTypes.arrayOf(PropTypes.string).isRequired,
-    dimensions: PropTypes.string.isRequired,
-    weight: PropTypes.string.isRequired,
-    features: PropTypes.arrayOf(PropTypes.string).isRequired,
-  }).isRequired,
-  isOpen: PropTypes.bool.isRequired,
-  onClose: PropTypes.func.isRequired,
 }
 
 export default ProductModal

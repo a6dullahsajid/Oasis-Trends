@@ -16,9 +16,9 @@ const Services = () => {
     },
     {
       id: 3,
-      title: "Bulk Manufacturing",
-      description: "Large-scale production capabilities specializing in 3000-3500 leather bags monthly with premium quality and fast turnaround for businesses worldwide.",
-      icon: "./assets/icons/bulk.png"
+      title: "Craftsmanship & Detailing",
+      description: "Skilled craftsmen who carefully hand-stitch every seam, finish edges perfectly, and pay attention to every detail to create beautiful, long-lasting leather products.",
+      icon: "./assets/icons/craftsmenship.png"
     },
     {
       id: 4,

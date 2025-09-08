@@ -203,7 +203,7 @@ const Hero = () => {
         {/* Floating WhatsApp Button */}
         <div className="hero-section__whatsapp-float">
           <a
-            href="https://wa.me/916394938670?text=Hi Nabeel! I'm interested in your leather products. Can you please provide more information?"
+            href={`https://wa.me/916394938670?text=Hi Nabeel!\nI'm interested in your leather products. Can you please provide more information?`}
             target="_blank"
             rel="noopener noreferrer"
             className="hero-section__whatsapp-btn"

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
+import ProductModal from './product-modal'
 
 const Products = ({
   products,
@@ -8,6 +9,9 @@ const Products = ({
   onProductClick
 }) => {
   const [showBagSubControls, setShowBagSubControls] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [currentProductIndex, setCurrentProductIndex] = useState(0)
+  const [currentProducts, setCurrentProducts] = useState([])
 
   const mainCategories = [
     { id: 'all', name: 'All Products' },
@@ -97,6 +101,29 @@ const Products = ({
     }
   }, [currentFilter, bagSubCategories])
 
+  // Modal functions
+  const openModal = (productIndex, filteredProducts) => {
+    setCurrentProductIndex(productIndex)
+    setCurrentProducts(filteredProducts)
+    setIsModalOpen(true)
+  }
+
+  const closeModal = () => {
+    setIsModalOpen(false)
+  }
+
+  const goToNext = () => {
+    setCurrentProductIndex((prevIndex) => 
+      prevIndex === currentProducts.length - 1 ? 0 : prevIndex + 1
+    )
+  }
+
+  const goToPrev = () => {
+    setCurrentProductIndex((prevIndex) => 
+      prevIndex === 0 ? currentProducts.length - 1 : prevIndex - 1
+    )
+  }
+
   return (
     <section id="products" className="products-section">
       <div className="products-section__container">
@@ -184,50 +211,66 @@ const Products = ({
         )}
 
         {/* Special case for Leather Bags - show all bag products */}
-        {currentFilter === 'leather-bags' && (
-          <div className="products-section__grid">
-            {products.filter(product => 
-              product.category === 'leather-bags'
-            ).map(product => (
-              <div key={product.id} className="products-section__card" data-category={product.subCategory}>
-                <div className="products-section__card-image-container">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="products-section__card-image--contained"
-                  />
+        {currentFilter === 'leather-bags' && (() => {
+          const filteredProducts = products.filter(product => product.category === 'leather-bags')
+          return (
+            <div className="products-section__grid">
+              {filteredProducts.map((product, index) => (
+                <div 
+                  key={product.id} 
+                  className="products-section__card" 
+                  data-category={product.subCategory}
+                  onClick={() => openModal(index, filteredProducts)}
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="products-section__card-image-container">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="products-section__card-image--contained"
+                    />
+                  </div>
+                  <div className="products-section__card-content">
+                    <h3 className="products-section__card-title">{product.name}</h3>
+                    <p className="products-section__card-style">Style No: {product.productStyle}</p>
+                  </div>
                 </div>
-                <div className="products-section__card-content">
-                  <h3 className="products-section__card-title">{product.name}</h3>
-                  <p className="products-section__card-style">Style No: {product.productStyle}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-                )}
+              ))}
+            </div>
+          )
+        })()}
 
         {/* Special case for Leather Accessories - show wash-bags, wallets, and key-chains */}
-        {currentFilter === 'leather-accessories' && (
-          <div className="products-section__grid">
-            {products.filter(product => 
-              product.category === 'wash-bag' || product.category === 'wallets' || product.category === 'key-chain'
-            ).map(product => (
-              <div key={product.id} className="products-section__card" data-category={product.category}>
-                <div className="products-section__card-image-container">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="products-section__card-image--contained"
-                  />
+        {currentFilter === 'leather-accessories' && (() => {
+          const filteredProducts = products.filter(product => 
+            product.category === 'wash-bag' || product.category === 'wallets' || product.category === 'key-chain'
+          )
+          return (
+            <div className="products-section__grid">
+              {filteredProducts.map((product, index) => (
+                <div 
+                  key={product.id} 
+                  className="products-section__card" 
+                  data-category={product.category}
+                  onClick={() => openModal(index, filteredProducts)}
+                  style={{ cursor: 'pointer' }}
+                >
+                  <div className="products-section__card-image-container">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="products-section__card-image--contained"
+                    />
+                  </div>
+                  <div className="products-section__card-content">
+                    <h3 className="products-section__card-title">{product.name}</h3>
+                    <p className="products-section__card-style">Style No: {product.productStyle}</p>
+                  </div>
                 </div>
-                <div className="products-section__card-content">
-                  <h3 className="products-section__card-title">{product.name}</h3>
-                  <p className="products-section__card-style">Style No: {product.productStyle}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+              ))}
+            </div>
+          )
+        })()}
 
         {/* Show products for specific sub-categories */}
         {currentFilter !== 'all' && currentFilter !== 'leather-bags' && currentFilter !== 'leather-accessories' && (
@@ -260,8 +303,14 @@ const Products = ({
                 )
               }
               
-              return filteredProducts.map(product => (
-                <div key={product.id} className="products-section__card" data-category={product.subCategory || product.category}>
+              return filteredProducts.map((product, index) => (
+                <div 
+                  key={product.id} 
+                  className="products-section__card" 
+                  data-category={product.subCategory || product.category}
+                  onClick={() => openModal(index, filteredProducts)}
+                  style={{ cursor: 'pointer' }}
+                >
                   <div className={`products-section__card-image-container ${product.category === 'finished-leather'
                     ? 'products-section__card-image-container--finished-leather'
                     : ''
@@ -285,6 +334,16 @@ const Products = ({
           </div>
         )}
       </div>
+
+      <ProductModal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        product={currentProducts[currentProductIndex]}
+        products={currentProducts}
+        currentIndex={currentProductIndex}
+        onNext={goToNext}
+        onPrev={goToPrev}
+      />
     </section>
   )
 }
